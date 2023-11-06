@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DS_RMTool", "DS_RMTool.vcproj", "{9B54E1A3-EA4C-4A83-8D1A-D6461E58CD19}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = [Tool]DS_RMTool\\
+		SolutionUniqueID = {3666CF15-477E-4C2C-ADFE-FEDF392BD1AD}
+		SccProjectUniqueName1 = DS_RMTool.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = [Tool]DS_RMTool\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugForChina = DebugForChina
+		DebugForJapan = DebugForJapan
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9B54E1A3-EA4C-4A83-8D1A-D6461E58CD19}.Debug.ActiveCfg = Debug|Win32
+		{9B54E1A3-EA4C-4A83-8D1A-D6461E58CD19}.Debug.Build.0 = Debug|Win32
+		{9B54E1A3-EA4C-4A83-8D1A-D6461E58CD19}.DebugForChina.ActiveCfg = DebugForChina|Win32
+		{9B54E1A3-EA4C-4A83-8D1A-D6461E58CD19}.DebugForChina.Build.0 = DebugForChina|Win32
+		{9B54E1A3-EA4C-4A83-8D1A-D6461E58CD19}.DebugForJapan.ActiveCfg = DebugForJapan|Win32
+		{9B54E1A3-EA4C-4A83-8D1A-D6461E58CD19}.DebugForJapan.Build.0 = DebugForJapan|Win32
+		{9B54E1A3-EA4C-4A83-8D1A-D6461E58CD19}.Release.ActiveCfg = Release|Win32
+		{9B54E1A3-EA4C-4A83-8D1A-D6461E58CD19}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

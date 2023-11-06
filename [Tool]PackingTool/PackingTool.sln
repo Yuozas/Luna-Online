@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PackingTool", "PackingTool.vcproj", "{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SolutionUniqueID = {F4900E30-6A01-45C8-ADD8-3ED889B95728}
+		SccProjectUniqueName1 = PackingTool.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugForChina = DebugForChina
+		Release = Release
+		ReleaseForChina = ReleaseForChina
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.Debug.ActiveCfg = Debug|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.Debug.Build.0 = Debug|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.DebugForChina.ActiveCfg = DebugForChina|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.DebugForChina.Build.0 = DebugForChina|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.Release.ActiveCfg = Release|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.Release.Build.0 = Release|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.ReleaseForChina.ActiveCfg = ReleaseForChina|Win32
+		{09ABE509-9B23-4D2F-B2F3-F7B5A5CB953B}.ReleaseForChina.Build.0 = ReleaseForChina|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

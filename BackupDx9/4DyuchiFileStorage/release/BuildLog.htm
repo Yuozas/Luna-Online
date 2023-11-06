@@ -1,0 +1,69 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=ks_c_5601-1987">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: FileStorage, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "C:\Users\Gzx\AppData\Local\Temp\RSP000001.rsp" with contents
+[
+/O2 /I "..\[CC]Header" /I ".\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_USRDLL" /D "MY4DYUCHIFILESTORAGE_EXPORTS" /D "_WINDLL" /D "_MBCS" /FD /EHsc /MT /GS /YX"stdafx.h" /Fp".\release\/FileStorage.pch" /Fo".\release\/" /Fd".\release\/" /FR".\release\/" /W3 /c /TP
+"\Classic\[CC]Header\Aes\aes.cpp"
+]
+Creating command line "cl.exe @C:\Users\Gzx\AppData\Local\Temp\RSP000001.rsp /nologo"
+Creating temporary file "C:\Users\Gzx\AppData\Local\Temp\RSP000002.rsp" with contents
+[
+/O2 /I "..\[CC]Header" /I ".\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MY4DYUCHIFILESTORAGE_EXPORTS" /FD /EHsc /MT /GS /YX"stdafx.h" /Fp".\release\/FileStorage.pch" /Fo".\release\/" /Fd".\release\/" /FR".\release\/" /W3 /c /TP
+.\PackFile.cpp
+.\factory.cpp
+.\dllmain.cpp
+.\CoStorage.cpp
+]
+Creating command line "cl.exe @C:\Users\Gzx\AppData\Local\Temp\RSP000002.rsp /nologo"
+Creating command line "rc.exe /d "NDEBUG" /l 0x412 /fo".\release\/Script1.res" .\Script1.rc"
+Creating temporary file "C:\Users\Gzx\AppData\Local\Temp\RSP000003.rsp" with contents
+[
+/OUT:"..\output/FileStorage.dll" /INCREMENTAL:NO /NOLOGO /DLL /DEF:".\4DyuchiFileStorage.def" /DEBUG /PDB:".\release\/FileStorage.pdb" /MAP:".\release\/FileStorage.map" /BASE:"0x67000000" /IMPLIB:".\release\\FileStorage.lib" /MACHINE:X86  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+.\release\CoStorage.obj
+.\release\dllmain.obj
+.\release\factory.obj
+.\release\PackFile.obj
+.\release\Script1.res
+.\release\aes.obj
+]
+Creating command line "link.exe @C:\Users\Gzx\AppData\Local\Temp\RSP000003.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+aes.cpp
+Compiling...
+PackFile.cpp
+PackFile.cpp(225) : warning C4102: 'lb_return' : unreferenced label
+PackFile.cpp(264) : warning C4102: 'lb_fail_create_file' : unreferenced label
+PackFile.cpp(261) : warning C4102: 'lb_return' : unreferenced label
+factory.cpp
+dllmain.cpp
+CoStorage.cpp
+CoStorage.cpp(252) : warning C4102: 'lb_return' : unreferenced label
+CoStorage.cpp(264) : warning C4102: 'lb_return' : unreferenced label
+CoStorage.cpp(291) : warning C4102: 'lb_return' : unreferenced label
+CoStorage.cpp(302) : warning C4102: 'lb_return' : unreferenced label
+CoStorage.cpp(470) : warning C4102: 'lb_return' : unreferenced label
+CoStorage.cpp(748) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+CoStorage.cpp(1070) : warning C4102: 'lb_check_string' : unreferenced label
+CoStorage.cpp(1191) : warning C4102: 'lb_call' : unreferenced label
+Compiling resources...
+Linking...
+   Creating library .\release\\FileStorage.lib and object .\release\\FileStorage.exp
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://l:\Classic\4DyuchiFileStorage\release\\BuildLog.htm"
+FileStorage - 0 error(s), 11 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

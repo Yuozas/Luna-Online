@@ -1,0 +1,9 @@
+LIBRARY     Geometry
+
+
+EXPORTS
+  DllGetClassObject PRIVATE
+  DllCanUnloadNow PRIVATE
+  DllRegisterServer PRIVATE
+  DllUnregisterServer PRIVATE
+  DllCreateInstance	PRIVATE

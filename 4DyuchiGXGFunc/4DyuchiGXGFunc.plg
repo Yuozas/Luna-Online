@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 4DyuchiGXGFunc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /base:"0x68000000" /subsystem:windows /dll /incremental:yes /pdb:"d:\4dyuchidll/SS3DGFuncN.pdb" /map:"Debug/SS3DGFuncN.map" /debug /debugtype:both /machine:I386 /out:"D:\4dyuchiDLL\SS3DGFuncN.dll" /implib:"d:\4dyuchidll/SS3DGFuncN.lib" /pdbtype:sept 
+.\Debug\BinSearchAE.obj
+.\Debug\create_index.obj
+.\Debug\DPCQ.obj
+.\Debug\global.obj
+.\Debug\Heap.obj
+.\Debug\ItemIndexTable.obj
+.\Debug\ItemQueue.obj
+.\Debug\look_aside_list.obj
+.\Debug\performance.obj
+.\Debug\quad_bytes_hash.obj
+.\Debug\sort.obj
+.\Debug\SortLink.obj
+.\Debug\StaticResourcePool.obj
+.\Debug\various_bytes_hash.obj
+.\Debug\resouce.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC6.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4075: ignoring /INCREMENTAL due to /DEBUGTYPE specification
+   Creating library d:\4dyuchidll/SS3DGFuncN.lib and object d:\4dyuchidll/SS3DGFuncN.exp
+
+
+
+<h3>Results</h3>
+SS3DGFuncN.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,2344 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\client.rc2""  // Microsoft Visual C++에서 편집되지 않은 리소스\r\n"
+    "#include ""afxres.rc""         // 표준 구성 요소\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\client.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_BITMAP1             BITMAP                  "res\\logo.bmp"
+IDB_BITMAP2             BITMAP                  "res\\about.bmp"
+IDB_BITMAP3             BITMAP                  "res\\bitmap3.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_LOG_PRINT
+    BUTTON      ID_LOG_SAVE
+    BUTTON      ID_LOG_COPY
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "Recovery(&R)"
+    BEGIN
+        MENUITEM "Guild(&G)\tCtrl+G",           ID_MENU_GUILD_DIALOG
+        MENUITEM "Family(&F)\tCTRL+F",          ID_MENU_FAMILY_DIALOG
+        MENUITEM SEPARATOR
+        MENUITEM "Item log(&I)\tCTRL+I",        ID__MENU_ITEM_LOG_DIALOG
+        MENUITEM "Item option log(&P)",         ID_MENU_ITEM_OPTION_LOG
+        MENUITEM "Item owner log(&O)\tCtrl+O",  ID_MENU_ITEM_SEARCH_DIALOG
+        MENUITEM SEPARATOR
+        MENUITEM "IP Allowance(&A)\tCTRL+A",    ID_MENU_PERMISSION_DIALOG
+        MENUITEM SEPARATOR
+        MENUITEM "Quit(&X)",                    ID_APP_EXIT
+    END
+    POPUP "Operator(&M)"
+    BEGIN
+        MENUITEM "Manage(&M)\tCTRL+M",          ID_MENU_OPERATOR_DIALOG
+        MENUITEM "Change password(&P)\tCTRL+P", ID_MENU_PASSWORD_DIALOG
+        MENUITEM "Log",                         ID_MENU_OPERATOR_LOG
+    END
+    POPUP "Program(&H)"
+    BEGIN
+        MENUITEM "About(&A)...",                ID_APP_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Tool group(&T)",              ID_VIEW_TOOLBAR
+        MENUITEM "Status Bar(&S)",              ID_VIEW_STATUS_BAR
+    END
+END
+
+IDR_clientTYPE MENU 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "New\tCtrl+N(&N)",             ID_FILE_NEW
+        MENUITEM "Close(&C)",                   ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "Quit(&X)",                    ID_APP_EXIT
+    END
+    POPUP "Edit(&E)"
+    BEGIN
+        MENUITEM "Cancel\tCtrl+Z(&U)",          ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cut\tCtrl+X(&T)",             ID_EDIT_CUT
+        MENUITEM "Copy\tCtrl+C(&C)",            ID_EDIT_COPY
+        MENUITEM "Paste\tCtrl+V(&P)",           ID_EDIT_PASTE
+    END
+    POPUP "View(&V)"
+    BEGIN
+        MENUITEM "Tool Group(&T)",              ID_VIEW_TOOLBAR
+        MENUITEM "Status Bar(&S)",              ID_VIEW_STATUS_BAR
+    END
+    POPUP "Window(&W)"
+    BEGIN
+        MENUITEM "Sort as cascade(&C)",         ID_WINDOW_CASCADE
+        MENUITEM "Sort as tile(&T)",            ID_WINDOW_TILE_HORZ
+        MENUITEM "Sort as icon(&A)",            ID_WINDOW_ARRANGE
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "About(&A)...",                ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 299, 314
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Recovery tool for Luna Online",IDC_STATIC,9,226,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007, 2008 Eya Interactive",IDC_STATIC,9,
+                    241,283,8
+    DEFPUSHBUTTON   "OK",IDOK,7,291,285,16,WS_GROUP
+    RTEXT           "Contact: Dev. Team 3 Lee Ung Ju\nehei@eyainteractive.com\nMSN: ehei2@hotmail.com",
+                    IDC_STATIC,154,256,138,31
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,7,7,286,214
+END
+
+IDR_MAINFRAME DIALOGEX 0, 0, 330, 16
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "TODO: 대화 상자 모음을 배치합니다. ",IDC_STATIC,12,4,
+                    300,8
+END
+
+IDD_LOGINDIALOG DIALOGEX 0, 0, 215, 251
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Log in"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_LOGIN_ID2,42,132,80,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOGIN_PASSWORD,43,149,79,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "Quit(&Q)",IDCANCEL,169,133,39,29
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,7,7,200,120
+    LTEXT           "Password",IDC_STATIC,9,150,29,8
+    LTEXT           "ID",IDC_STATIC,9,134,22,8
+    CONTROL         "",IDC_LOGIN_SERVER_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,182,201,64
+    CTEXT           "Static",IDC_LOGIN_VERSION_STATIC,7,166,201,8
+    DEFPUSHBUTTON   "Connect(&C)",IDC_LOGIN_CONNECT_BUTTON,125,133,42,29
+END
+
+IDD_NEWUSERDIALOG DIALOGEX 0, 0, 111, 229
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | 
+    WS_CAPTION
+CAPTION "Find player"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_NEWUSER_SERVER_COMBO,37,19,62,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_NEWUSER_KEYWORD_EDIT,11,34,62,14,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    DEFPUSHBUTTON   "find",IDC_NEWUSER_SEARCH_BUTTON,73,34,26,14
+    CONTROL         "Log in ID",IDC_NEWUSER_ID_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,13,53,82,10
+    CONTROL         "Player index",IDC_NEWUSER_PLAYER_ID_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,13,64,84,10
+    CONTROL         "Real name",IDC_NEWUSER_NAME_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,13,75,81,10
+    CONTROL         "Player name",IDC_NEWUSER_CHARACTER_RADIO,"Button",
+                    BS_AUTORADIOBUTTON,13,86,84,10
+    COMBOBOX        IDC_NEWUSER_USER_COMBO,34,132,52,30,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      ">",IDC_NEWUSER_USER_DATA_BUTTON,85,131,14,13
+    COMBOBOX        IDC_NEWUSER_RESULT_COMBO,34,172,53,30,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      ">",IDC_NEWUSER_PLAYER_BUTTON,86,172,14,12
+    PUSHBUTTON      "Skill(&S)",IDC_NEWUSER_SKILL_BUTTON,10,188,48,14
+    PUSHBUTTON      "Item(&I)",IDC_NEWUSER_ITEM_BUTTON,58,188,43,14
+    PUSHBUTTON      "Quest(&Q)",IDC_NEWUSER_BUTTON_QUEST,10,203,48,14
+    PUSHBUTTON      "Family(&F)",IDC_NEWUSER_FAMILY_BUTTON,58,203,43,14
+    LTEXT           "Server",IDC_STATIC,12,21,15,8
+    GROUPBOX        "Find ",IDC_STATIC,7,7,97,109
+    GROUPBOX        "User",IDC_STATIC,7,119,97,33
+    RTEXT           "Case",IDC_NEWUSER_RESULT_SIZE_STATIC2,16,173,15,8
+    GROUPBOX        "Playser",IDC_STATIC,7,160,97,62
+    RTEXT           "Case",IDC_NEWUSER_USER_SIZE_STATIC,15,135,16,8
+    LTEXT           "Fastest order",IDC_STATIC,15,100,74,8
+    PUSHBUTTON      "User(&U)",IDC_NEWUSER_USER_BUTTON,45,155,59,13,NOT 
+                    WS_VISIBLE
+END
+
+IDD_PLAYERDIALOG DIALOGEX 0, 0, 311, 376
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION " "
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Item(&I)",IDC_PLAYER_ITEM_LOG_BUTTON,10,349,38,14
+    PUSHBUTTON      "Stat(&T)",IDC_PLAYER_STAT_LOG_BUTTON,49,349,36,14
+    PUSHBUTTON      "Exp(&L)",IDC_PLAYER_EXP_LOG_BUTTON,86,349,42,14
+    EDITTEXT        IDC_PLAYER_USER_NAME_EDIT,202,7,82,14,ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL | ES_READONLY
+    PUSHBUTTON      ">",IDC_PLAYER_USER_VIEW_BUTTON,287,7,17,14
+    PUSHBUTTON      "Guild(&G)",IDC_PLAYER_GUILD_BUTTON,202,25,101,14
+    COMBOBOX        IDC_PLAYER_JOB1_COMBO,199,55,85,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_PLAYER_JOB2_COMBO,199,70,85,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_PLAYER_JOB3_COMBO,199,85,85,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_PLAYER_JOB4_COMBO,199,100,85,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_PLAYER_JOB5_COMBO,199,114,85,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_PLAYER_JOB6_COMBO,199,129,85,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Apply(&J)",IDC_PLAYER_JOB_SUBMIT_BUTTON,201,145,62,14
+    PUSHBUTTON      "...",IDC_PLAYER_GUILD_BUTTON2,264,145,19,14
+    EDITTEXT        IDC_PLAYER_LICENSE_AGE_EDIT,223,182,77,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_PLAYER_LICENSE_AREA_COMBO2,223,201,77,30,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_PLAYER_LICENSE_LOVE_EDIT,223,217,77,14,
+                    ES_AUTOHSCROLL
+    CONTROL         "",IDC_LICENSE_GOOD_TREE,"SysTreeView32",
+                    TVS_SHOWSELALWAYS | TVS_CHECKBOXES | WS_BORDER | 
+                    WS_TABSTOP,223,235,76,54
+    CONTROL         "",IDC_LICENSE_BAD_TREE,"SysTreeView32",
+                    TVS_SHOWSELALWAYS | TVS_CHECKBOXES | WS_BORDER | 
+                    WS_TABSTOP,223,293,76,53
+    PUSHBUTTON      "Update(&L)",IDC_PLAYER_LICENSE_UPDATE_BUTTNO,223,349,76,
+                    14
+    CONTROL         "",IDC_PLAYER_DATA_TAB,"SysTabControl32",0x0,7,7,165,324
+    PUSHBUTTON      "Update",IDC_PLAYER_ITEM,11,310,74,14
+    PUSHBUTTON      "Update",IDC_PLAYER_NAME_UPDATE_BUTTON,87,310,80,14
+    GROUPBOX        "License",IDC_PLAYER_LICENSE_GROUP_STATIC,178,170,126,
+                    198
+    LTEXT           "Age",IDC_STATIC,183,185,15,8
+    LTEXT           "Location",IDC_STATIC,183,203,22,8
+    LTEXT           "Heart score",IDC_STATIC,182,219,22,8
+    LTEXT           "Faovorted\nthing",IDC_STATIC,183,235,39,26
+    LTEXT           "Disfavorited\nthing",IDC_STATIC,183,294,40,23
+    LTEXT           "ID",IDC_STATIC,178,11,22,8
+    GROUPBOX        "Job",IDC_STATIC,179,44,125,121
+    GROUPBOX        "Log",IDC_STATIC,7,337,165,32
+    LTEXT           "1st",IDC_STATIC,185,58,12,8
+    LTEXT           "2nd",IDC_STATIC,185,73,12,8
+    LTEXT           "3rd",IDC_STATIC,185,87,12,8
+    LTEXT           "4th",IDC_STATIC,185,102,12,8
+    LTEXT           "5th",IDC_STATIC,185,116,12,8
+    LTEXT           "6th",IDC_STATIC,185,131,12,8
+    LTEXT           "You can change value of data tagged *",IDC_STATIC,17,
+                    300,106,8
+    PUSHBUTTON      "Name(&N)",IDC_PLAYER_NAME_LOG_BUTTON,129,349,37,14
+END
+
+IDD_ITEMDIALOG DIALOGEX 0, 0, 334, 404
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Item"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_ITEM_TAB,"SysTabControl32",0x0,200,7,128,386
+    LTEXT           "",IDC_ITEM_DATA_FRAME2,206,38,115,351,WS_BORDER
+    PUSHBUTTON      "...",IDC_ITEM_INVENTORY_LOG_BUTTON,291,22,20,14
+    PUSHBUTTON      "Update(&M)",IDC_ITEM_DATA_UPDATE_BUTTON,252,22,39,14
+    CONTROL         "",IDC_ITEM_INVENTORY_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,14,20,175,272
+    GROUPBOX        "Inventory",IDC_STATIC,7,7,189,304
+    PUSHBUTTON      "Add(&A)",IDC_ITEM_ADD_BUTTON,13,292,175,14
+    EDITTEXT        IDC_ITEM_REMAIN_TIME_STATIC,61,377,57,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_ITEM_END_TIME_STATIC,61,359,57,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "Cash item information",IDC_STATIC,7,348,188,49
+    LTEXT           "It'll vanish after...",IDC_STATIC,120,361,68,8
+    PUSHBUTTON      "end time",IDC_ITEM_END_TIME_BUTTON,12,359,43,14
+    PUSHBUTTON      "remain time",IDC_ITEM_REMAIN_TIME_BUTTON,12,377,43,14
+    GROUPBOX        "Storage",IDC_STATIC,7,316,188,30
+    COMBOBOX        IDC_ITEM_STORAGE_SIZE_COMBO,38,326,26,30,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_ITEM_STORAGE_MONEY_EDIT,79,325,89,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Tab size",IDC_STATIC,12,328,24,8
+    RTEXT           "\\",IDC_STATIC,67,328,10,8
+    PUSHBUTTON      "+",IDC_ITEM_STORAGE_UPDATE_BUTTON,167,325,21,14
+    PUSHBUTTON      "Remove(&D)",IDC_ITEM_DATA_DELETE_BUTTON,207,22,44,14
+END
+
+IDD_WAITDIALOG DIALOGEX 0, 0, 198, 78
+STYLE DS_ABSALIGN | DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | 
+    DS_CENTER | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOPMOST | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+CAPTION "Standby"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CTEXT           "Server is processing now. Please wait a minute...",
+                    IDC_STATIC,7,31,185,8
+    CONTROL         "",IDC_WAIT_GIF,"Static",SS_BLACKRECT | SS_CENTERIMAGE,
+                    38,7,118,23
+    CTEXT           "...",IDC_WAITING_TIME_STATIC,7,63,185,8
+    PUSHBUTTON      "Cancel(&C)",IDCANCEL,7,46,185,14
+END
+
+IDD_SKILLDIALOG DIALOGEX 0, 0, 307, 295
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Skill"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "+",IDC_SKILL_ADD_BUTTON,269,95,24,16
+    PUSHBUTTON      "...",IDC_SKILL_LOG_BUTTON,273,243,19,15
+    COMBOBOX        IDC_SKILL_LEVEL_COMBO,99,245,63,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Update(&U)",IDC_SKILL_UPDATE_BUTTON,164,243,55,15
+    PUSHBUTTON      "Remove(&D)",IDC_SKILL_REMOVE_BUTTON,219,243,53,15
+    CONTROL         "",IDC_SKILL_MY_LIST2,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,14,143,278,72
+    LTEXT           "Level",IDC_STATIC,77,247,18,8
+    CONTROL         "",IDC_SKILL_ENABLE_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,12,20,281,73
+    LTEXT           "Static",IDC_SKILL_ENABLE_TIP_STATIC,14,96,229,22
+    LTEXT           "Static",IDC_SKILL_MY_TIP_STATIC,15,218,278,20
+    GROUPBOX        "Not own",IDC_STATIC,7,7,293,119
+    GROUPBOX        "Own",IDC_STATIC,7,130,293,158
+    PUSHBUTTON      "Button1",IDC_SKILL_REPORT_BUTTON,11,263,284,20
+END
+
+IDD_ITEMFINDDIALOG DIALOGEX 0, 0, 379, 215
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Find item owner"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_ITEM_FIND_SERVER_COMBO,46,19,101,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_ITEM_FIND_KEYWORD,11,63,117,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "Find(&S)",IDC_ITEM_FIND_SEARCH_BUTTON,129,62,49,14
+    PUSHBUTTON      "<",IDC_ITEM_FIND_PREV_PAGE_BUTTON,192,173,21,14
+    PUSHBUTTON      ">",IDC_ITEM_FIND_NEXT_PAGE_BUTTON,260,173,21,14
+    PUSHBUTTON      "More(&M)",IDC_ITEM_FIND_MORE_SEARCH_BUTTON,307,173,63,
+                    14
+    PUSHBUTTON      "Display all item who owned",IDC_ITEM_FIND_VIEW_PLAYER,
+                    191,189,179,14
+    CONTROL         "",IDC_ITEM_FIND_RESULT_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,191,30,178,141
+    GROUPBOX        "Find",IDC_STATIC,7,7,175,201
+    LTEXT           "Input index directly or select from item list And press Find button",
+                    IDC_STATIC,12,39,164,20
+    GROUPBOX        "Result",IDC_STATIC,185,7,187,201
+    LTEXT           "Server",IDC_STATIC,13,21,27,8
+    CONTROL         "",IDC_ITEM_FIND_DATA_LIST2,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,11,83,168,121
+    CTEXT           "Page",IDC_ITEM_FIND_PAGE_STATIC,220,175,35,8
+    LTEXT           "Server",IDC_ITEM_FIND_RESULT_STATIC,192,19,173,8
+END
+
+IDD_FAMILYDIALOG DIALOGEX 0, 0, 331, 304
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Family 정보"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_FAMILY_MEMBER_LIST2,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,187,125,91
+    CONTROL         "",IDC_FAMILY_CROP_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,145,176,173,99
+    LTEXT           "Status",IDC_STATIC,149,109,26,8
+    LTEXT           "Garden grade",IDC_STATIC,149,125,31,8
+    LTEXT           "House grade",IDC_STATIC,149,143,31,8
+    LTEXT           "Storage grade",IDC_STATIC,237,109,31,8
+    LTEXT           "Livingstock grade",IDC_STATIC,237,125,37,8
+    LTEXT           "Fence grade",IDC_STATIC,238,143,31,8
+    EDITTEXT        IDC_FAMILY_FARM_STATE_EDIT,188,105,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_FAMILY_GARDEN_EDIT,188,123,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_FAMILY_HOUSE_EDIT,188,141,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_FAMILY_WAREHOUSE_EDIT,279,105,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_FAMILY_CAGE_EDIT,279,123,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_FAMILY_FENCE_EDIT,279,141,40,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "Farm",IDC_STATIC,139,91,186,206
+    LTEXT           "Member",IDC_STATIC,7,174,15,8
+    LTEXT           "Crop",IDC_STATIC,145,164,22,8
+    LTEXT           "Name",IDC_STATIC,7,96,15,8
+    LTEXT           "Honor",IDC_STATIC,7,115,27,8
+    LTEXT           "Enable nick",IDC_STATIC,7,132,31,8
+    LTEXT           "Birth",IDC_STATIC,7,151,22,8
+    EDITTEXT        IDC_FAMILY_NICK_EDIT,48,94,61,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_FAMILY_HONOR_EDIT,48,112,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FAMILY_ENABLE_NICK_EDIT,48,130,61,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_FAMILY_BUILD_DATE_EDIT,48,148,61,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "Display player data(&M)",IDC_FAMILY_MEMBER_BUTTON,7,283,
+                    125,14
+    COMBOBOX        IDC_FAMILY_SERVER_COMBO,48,18,81,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_FAMILY_KEYWORD_EDIT,132,18,95,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Find(&S)",IDC_FAMILY_FIND_BUTTON,229,18,50,14
+    CONTROL         "Find disbanded one",IDC_FAMILY_DELETE_GUILD_CHECK,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,48,
+                    34,75,10
+    COMBOBOX        IDC_FAMILY_RESULT_COMBO,48,64,144,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      ">",IDC_FAMILY_SPECIFIC_DATA_BUTTON,194,62,16,14
+    GROUPBOX        "Find",IDC_STATIC,7,7,318,42
+    GROUPBOX        "Result",IDC_STATIC,7,51,318,34
+    LTEXT           "Server",IDC_STATIC,13,20,23,8
+    LTEXT           "max 100 record",IDC_STATIC,215,65,94,8
+    LTEXT           "You can wild card character(*,?) to find",IDC_STATIC,
+                    132,36,138,8
+    RTEXT           "",IDC_FAMILY_RESULT_SIZE_STATIC,13,66,30,8
+    PUSHBUTTON      "...",IDC_FAMILY_POINT_LOG_BUTTON,119,112,18,14
+    PUSHBUTTON      "Log of crop(&C)",IDC_FAMILY_FARM_LOG_BUTTON,145,278,173,
+                    14
+    PUSHBUTTON      "+",IDC_FAMILY_POINT_UPDATE_BUTTON,100,112,19,14
+END
+
+IDD_QUESTDIALOG DIALOGEX 0, 0, 335, 342
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Quest "
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Remove main quest(&D)",IDC_QUEST_MAIN_DELETE_BUTTON,7,
+                    126,197,14
+    PUSHBUTTON      "Finish selected sub quest(&C)",
+                    IDC_QUEST_SELECTED_ONE_FINISH_BUTTON,7,257,215,14
+    PUSHBUTTON      "Submit",IDOK,51,7,50,16,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,102,7,50,16,NOT WS_VISIBLE | NOT 
+                    WS_TABSTOP
+    CONTROL         "",IDC_QUEST_ITEM_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,288,101,47
+    LTEXT           "Main quest",IDC_STATIC,7,7,38,8
+    LTEXT           "Remained sub quest",IDC_STATIC,7,150,83,8
+    LTEXT           "Corrected item",IDC_STATIC,7,275,67,8
+    CONTROL         "",IDC_QUEST_SUB_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,161,215,57
+    CONTROL         "",IDC_QUEST_MAIN_LIST2,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,18,215,83
+    CONTROL         "",IDC_QUEST_MONSTER_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,113,288,109,47
+    LTEXT           "Quest description",IDC_QUEST_DESCRIPTION,7,222,215,26
+    LTEXT           "Hunting",IDC_STATIC,115,275,31,8
+    CONTROL         "",IDC_QUEST_ITEM_TOTAL_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,232,21,92,183
+    LTEXT           "Static",IDC_QUEST_ITEM_STATIC,232,224,89,104
+    GROUPBOX        "Quest item",IDC_STATIC,227,7,102,328
+    PUSHBUTTON      "+",IDC_QUEST_ITEM_UPDATE_BUTTON,292,205,16,14
+    PUSHBUTTON      "-",IDC_QUEST_ITEM_DELETE_BUTTON,308,205,16,14
+    EDITTEXT        IDC_QUEST_ITEM_SIZE_EDIT,232,205,60,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "...",IDC_QUEST_LOG_BUTTON,205,126,17,14
+    LTEXT           "Static",IDC_QUEST_REPORT_STATIC,7,104,215,18,
+                    SS_ENDELLIPSIS
+    PUSHBUTTON      "+",IDC_QUEST_ITEM_ADD_BUTTON,308,205,16,14
+END
+
+IDD_GUILDDIALOG DIALOGEX 0, 0, 367, 364
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Guild"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_GUILD_SERVER_COMBO2,39,18,81,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_GUILD_KEYWORD_EDIT,122,18,92,13,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    DEFPUSHBUTTON   "Find(&S)",IDC_GUILD_FIND_BUTTON,214,18,50,14
+    CONTROL         "Find disbanded one",IDC_GUILD_DELETE_GUILD_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,123,34,76,10
+    COMBOBOX        IDC_GUILD_RESULT_COMBO,48,64,144,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      ">",IDC_GUILD_SPECIFIC_DATA_BUTTON,194,62,15,14
+    EDITTEXT        IDC_GUILD_LEVEL_EDIT,52,138,81,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GUILD_SCORE_EDIT,52,156,62,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Update(&U)",IDC_GUILD_DATA_UPDATE_BUTTON,13,212,120,14
+    PUSHBUTTON      "Member(&P)",IDC_GUILD_SELECTED_MEMBER_BUTTON,13,337,98,
+                    14
+    PUSHBUTTON      "...",IDC_GUILD_LOG_BUTTON,112,337,21,14
+    EDITTEXT        IDC_GUILD_MONEY_EDIT,164,218,101,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Update money(&M)",IDC_GUILD_MONEY_UPDATE_BUTTON,273,217,
+                    53,14
+    PUSHBUTTON      "...",IDC_GUILD_STORE_LOG_BUTTON,327,217,22,14
+    PUSHBUTTON      "Alliance(&A)",IDC_GUILD_FRIENDLY_DATA_BUTTON,144,337,
+                    101,14
+    PUSHBUTTON      "Enemy(&G)",IDC_GUILD_ENEMY_DATA_BUTTON,248,337,101,14
+    EDITTEXT        IDC_GUILD_NAME_EDIT,52,105,81,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_GUILD_BUILD_DATE_EDIT,52,122,81,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_GUILD_ALLIANCE_NAME_EDIT,52,173,81,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "",IDC_GUILD_STORE_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,148,111,201,103
+    LTEXT           "Name",IDC_STATIC,13,108,39,8
+    LTEXT           "Birth",IDC_STATIC,13,124,22,8
+    GROUPBOX        "Find",IDC_STATIC,7,7,353,42
+    GROUPBOX        "Result",IDC_STATIC,7,51,353,34
+    LTEXT           "Level",IDC_STATIC,13,140,31,8
+    LTEXT           "Score",IDC_STATIC,13,158,28,8
+    LTEXT           "Server",IDC_STATIC,13,20,23,8
+    LTEXT           "Alliance",IDC_STATIC,13,178,32,8
+    CONTROL         "",IDC_GUILD_MEMBER_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,13,247,120,74
+    LTEXT           "Member",IDC_STATIC,13,236,95,8
+    CONTROL         "",IDC_GUILD_ENEMY_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,248,269,101,66
+    LTEXT           "Alliance",IDC_STATIC,145,258,84,8
+    GROUPBOX        "Data",IDC_STATIC,7,91,353,266
+    GROUPBOX        "Storage",IDC_STATIC,140,99,214,138
+    RTEXT           "\\",IDC_STATIC,148,221,13,8
+    GROUPBOX        "Relation",IDC_STATIC,140,244,214,113
+    CONTROL         "",IDC_GUILD_ALLIANCE_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,144,269,100,66
+    LTEXT           "enemy",IDC_STATIC,252,257,83,8
+    LTEXT           "max 100 record",IDC_STATIC,215,65,94,8
+    LTEXT           "You can wild card character(*,?) to find",IDC_STATIC,
+                    213,37,141,8
+    LTEXT           "Joined data to alliance",IDC_STATIC,13,196,38,8
+    EDITTEXT        IDC_GUILD_ALLIANCE_ENTRY_DATE_EDIT,52,194,81,14,
+                    ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "",IDC_GUILD_RESULT_SIZE_STATIC,13,66,30,8
+    PUSHBUTTON      "...",IDC_GUILD_SCORE_LOG_BUTTON,114,156,19,14
+    PUSHBUTTON      "Update(&R)",IDC_GUILD_MEMBER_MODIFY_BUTTON,80,322,53,14
+    COMBOBOX        IDC_GUILD_RANK_COMBO,13,322,65,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_EXPERIENCELOGDIALOG DIALOGEX 0, 0, 287, 263
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Experience Log"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Find(&S)",IDC_EXP_FIND_BUTTON,207,18,65,14
+    PUSHBUTTON      "Stop(&C)",IDC_EXP_STOP_BUTTON,207,35,64,14
+    CONTROL         "",IDC_EXP_RESULT_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,77,273,179
+    CONTROL         "",IDC_EXP_PROGRESS_CTRL,"msctls_progress32",WS_BORDER | 
+                    0x1,68,58,147,13
+    GROUPBOX        "Find",IDC_STATIC,7,7,273,47
+    LTEXT           "result size",IDC_EXP_RESULT_STATIC,7,60,58,8
+    PUSHBUTTON      "Save to Excel(&E)",IDC_EXP_EXCEL_BUTTON,220,57,60,14
+    LTEXT           "From",IDC_STATIC,185,22,15,8
+    LTEXT           "Until",IDC_STATIC,185,39,15,8
+    CONTROL         "",IDC_EXP_LOG_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,11,19,
+                    100,15
+    CONTROL         "",IDC_EXP_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,11,35,
+                    100,15
+    CONTROL         "",IDC_EXP_LOG_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,111,19,73,15
+    CONTROL         "",IDC_EXP_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,111,35,73,15
+END
+
+IDD_ITEMLOGDIALOG DIALOGEX 0, 0, 311, 296
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Item Log"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_ITEM_LOG_COMBO2,36,21,65,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_ITEM_LOG_DBIDX_EDIT,136,20,63,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    DEFPUSHBUTTON   "Find(&S)",IDC_ITEM_LOG_FIND_BUTTON,221,50,73,14
+    PUSHBUTTON      "Stop(&P)",IDC_ITEM_LOG_STOP_BUTTON,221,66,73,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_ITEM_LOG_EXCEL_BUTTON,245,90,59,
+                    14
+    PUSHBUTTON      "Option log of selected item(&L)",
+                    IDC_ITEM_LOG_OPTION_LOG_BUTTON,7,275,297,14
+    LTEXT           "Server",IDC_STATIC,12,22,22,8
+    GROUPBOX        "Find",IDC_STATIC,7,7,297,79
+    LTEXT           "keyword",IDC_STATIC,106,22,29,8
+    CONTROL         "",IDC_ITEM_LOG_RESULT_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_EDITLABELS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,7,109,297,149
+    CONTROL         "",IDC_ITEM_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,55,90,186,14
+    LTEXT           "result size",IDC_ITEM_LOG_RESULT_STATIC,7,92,44,8
+    LTEXT           "From",IDC_STATIC,190,53,20,8
+    LTEXT           "Until",IDC_STATIC,190,70,15,8
+    CONTROL         "Item Index",IDC_ITEM_LOG_DB_INDEX_RADIO,"Button",
+                    BS_AUTORADIOBUTTON,204,25,53,10
+    CONTROL         "Item DB Index",IDC_ITEM_LOG_ITEM_INDEX_RADIO,"Button",
+                    BS_AUTORADIOBUTTON,204,14,61,10
+    CONTROL         "",IDC_ITEM_LOG_BEGIN_DATE_PICKER,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,15,50,
+                    100,15
+    CONTROL         "",IDC_ITEM_LOG_BEGIN_TIME_PICKER,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,117,50,71,15
+    CONTROL         "",IDC_DATETIMEPICKER3,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_DISABLED | 
+                    WS_TABSTOP,15,67,100,15
+    CONTROL         "",IDC_DATETIMEPICKER4,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,117,67,71,15
+    PUSHBUTTON      "Copy to clipboard selected line(&B)",
+                    IDC_ITEM_LOG_COPY_BUTTON,7,260,297,14
+    CONTROL         "Player Index",IDC_ITEM_LOG_PLAYER_DB_IDX_RADIO,"Button",
+                    BS_AUTORADIOBUTTON,204,36,59,10
+END
+
+IDD_STATLOGDIALOG DIALOGEX 0, 0, 287, 266
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Stat"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Stop(&C)",IDC_STAT_LOG_STOP_BUTTON,204,33,69,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_STAT_LOG_EXCEL_BUTTON,220,59,60,
+                    14
+    CONTROL         "",IDC_STAT_LOG_RESULT_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,79,273,179
+    CONTROL         "",IDC_STAT_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,60,59,155,13
+    GROUPBOX        "Find",IDC_STATIC,7,7,273,47
+    LTEXT           "From",IDC_STATIC,184,20,16,8
+    LTEXT           "result size",IDC_STAT_LOG_RESULT_STATIC,7,62,50,8
+    LTEXT           "Until",IDC_STATIC,184,37,15,8
+    CONTROL         "",IDC_STAT_LOG_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,18,
+                    100,15
+    CONTROL         "",IDC_STAT_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,112,35,71,15
+    CONTROL         "",IDC_STAT_LOG_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,112,18,70,15
+    CONTROL         "",IDC_STAT_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,13,34,
+                    98,15
+    DEFPUSHBUTTON   "Find(&S)",IDC_STAT_LOG_FIND_BUTTON,204,15,70,14
+END
+
+IDD_SKILLLOGDIALOG DIALOGEX 0, 0, 287, 283
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Skill Log"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Find(&S)",IDC_SKILL_LOG_FIND_BUTTON,203,15,71,14
+    PUSHBUTTON      "Stop(&C)",IDC_SKILL_LOG_STOP_BUTTON,202,33,71,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_SKILL_LOG_EXCEL_BUTTON,220,59,60,
+                    14
+    CONTROL         "",IDC_SKILL_LOG_RESULT_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,7,78,273,179
+    CONTROL         "",IDC_SKILL_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,60,59,155,13
+    GROUPBOX        "Find",IDC_STATIC,7,7,273,47
+    LTEXT           "result size",IDC_SKILL_LOG_RESULT_STATIC,7,62,50,8
+    LTEXT           "Until",IDC_STATIC,182,38,15,8
+    CONTROL         "",IDC_SKILL_LOG_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,11,19,
+                    100,15
+    CONTROL         "",IDC_SKILL_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,11,34,
+                    100,15
+    CONTROL         "",IDC_SKILL_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,110,34,70,15
+    CONTROL         "",IDC_SKILL_LOG_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,110,19,70,15
+    LTEXT           "From",IDC_STATIC,182,21,18,8
+    PUSHBUTTON      "Copy to clipboard selected line(&B)",
+                    IDC_SKILL_LOG_CLIPBOARD_BUTTON,7,262,273,14
+END
+
+IDD_ITEMOPTIONLOGDIALOG DIALOGEX 0, 0, 287, 262
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Item Option Log"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Find(&S)",IDC_ITEM_OPTION_LOG_FIND_BUTTON,210,17,64,14
+    PUSHBUTTON      "Stop(&C)",IDC_ITEM_OPTION_LOG_STOP_BUTTON,210,34,63,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_ITEM_OPTION_LOG_EXCEL_BUTTON,220,
+                    58,60,14
+    CONTROL         "",IDC_ITEM_OPTION_LOG_RESULT_LIST,"SysListView32",
+                    LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,76,
+                    273,179
+    CONTROL         "",IDC_ITEM_OPTION_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,60,59,155,13
+    GROUPBOX        "Find",IDC_STATIC,7,8,273,47
+    LTEXT           "From",IDC_STATIC,186,23,17,8
+    LTEXT           "result size",IDC_ITEM_OPTION_LOG_RESULT_STATIC,7,62,50,
+                    8
+    LTEXT           "Until",IDC_STATIC,186,40,15,8
+    CONTROL         "",IDC_ITEM_OPTION_LOG_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,20,
+                    100,15
+    CONTROL         "",IDC_ITEM_OPTION_LOG_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,112,20,72,15
+    CONTROL         "",IDC_ITEM_OPTION_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,36,
+                    100,15
+    CONTROL         "",IDC_ITEM_OPTION_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,112,56,72,15
+    EDITTEXT        IDC_ITEM_OPTION_LOG_DB_IDX_EDIT,171,19,104,14,
+                    ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Item DB Index",IDC_STATIC,120,21,46,8
+    COMBOBOX        IDC_ITEM_OPTION_LOG_SERVER_COMBO,38,19,65,30,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "server",IDC_STATIC,18,20,15,8
+END
+
+IDD_GUILDLOGDIALOG DIALOGEX 0, 0, 287, 283
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Guild Log"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Find(&S)",IDC_GUILD_LOG_FIND_BUTTON,215,15,59,14
+    PUSHBUTTON      "Stop(&C)",IDC_GUILD_LOG_STOP_BUTTON,214,33,59,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_GUILD_LOG_EXCEL_BUTTON,220,57,60,
+                    14
+    CONTROL         "",IDC_GUILD_LOG_RESULT_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,7,77,273,179
+    CONTROL         "",IDC_GUILD_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,60,58,155,13
+    GROUPBOX        "Find",IDC_STATIC,7,7,273,47
+    LTEXT           "From",IDC_STATIC,187,22,15,8
+    LTEXT           "result size",IDC_GUILD_LOG_RESULT_STATIC,7,60,50,8
+    LTEXT           "Until",IDC_STATIC,187,38,15,8
+    CONTROL         "",IDC_GUILD_LOG_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,11,19,
+                    100,15
+    CONTROL         "",IDC_GUILD_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,11,35,
+                    100,15
+    CONTROL         "",IDC_GUILD_LOG_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,113,19,73,15
+    CONTROL         "",IDC_GUILD_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,113,35,73,15
+    PUSHBUTTON      "Copy to clipboard selected line(&B)",
+                    IDC_GUILD_LOG_CLIPBOARD_BUTTON,7,262,273,14
+END
+
+IDD_GUILDWAREHOUSELOGDIALOG DIALOGEX 0, 0, 287, 302
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Guild Storage Log"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Find(&S)",IDC_GUILD_ITEM_LOG_FIND_BUTTON,205,15,69,14
+    PUSHBUTTON      "Stop(&C)",IDC_GUILD_ITEM_LOG_STOP_BUTTON,205,33,68,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_GUILD_ITEM_LOG_EXCEL_BUTTON,220,
+                    58,60,14
+    PUSHBUTTON      "More(&P)",IDC_GUILD_ITEM_LOG_PLAYER_BUTTON,7,275,130,14
+    PUSHBUTTON      "Owned item(&I)",IDC_GUILD_ITEM_LOG_ITEM_BUTTON,141,274,
+                    127,14
+    CONTROL         "",IDC_GUILD_ITEM_LOG_RESULT_LIST,"SysListView32",
+                    LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,79,
+                    273,179
+    CONTROL         "",IDC_GUILD_ITEM_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,60,59,155,13
+    GROUPBOX        "Find",IDC_STATIC,7,7,273,47
+    LTEXT           "From",IDC_STATIC,185,21,15,8
+    LTEXT           "result size",IDC_GUILD_ITEM_LOG_RESULT_STATIC,7,61,50,8
+    LTEXT           "Until",IDC_STATIC,185,37,15,8
+    GROUPBOX        "Displayer player data",IDC_STATIC,7,265,273,29
+    CONTROL         "",IDC_GUILD_WAREHOUSE_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,18,
+                    100,15
+    CONTROL         "",IDC_GUILD_WAREHOUSE_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,34,
+                    100,15
+    CONTROL         "",IDC_GUILD_WAREHOUSE_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,113,34,70,15
+    CONTROL         "",IDC_GUILD_WAREHOUSE_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,113,18,70,15
+END
+
+IDD_USERDIALOG DIALOGEX 0, 0, 247, 229
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "User"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "More(&C)",IDC_USER_LIVE_PLAYER_BUTTON,13,184,98,14
+    PUSHBUTTON      "More(&D)",IDC_USER_DELETED_PLAYER_BUTTON2,129,184,104,
+                    14
+    CONTROL         "",IDC_USER_CREATED_PLAYER_LIST,"SysListView32",
+                    LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,12,103,99,77
+    EDITTEXT        IDC_USER_LOGID_EDIT3,53,7,79,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "ID",IDC_STATIC,7,10,22,8
+    LTEXT           "Birth date",IDC_STATIC,7,26,22,8
+    LTEXT           "Last connected date",IDC_STATIC,7,42,38,8
+    EDITTEXT        IDC_USER_CREATED_DATE_EDIT,53,23,79,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_USER_LOGOUT_DATE_EDIT,53,39,79,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "",IDC_USER_DELETED_PLAYER_LIST2,"SysListView32",
+                    LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,129,103,104,77
+    GROUPBOX        "Gaming player",IDC_STATIC,7,83,111,139
+    GROUPBOX        "Removed player",IDC_STATIC,124,83,116,139
+    LTEXT           "Static",IDC_USER_CONNECT_STATIC2,134,42,106,8
+    LTEXT           "Static",IDC_USER_AGENT_STATIC2,134,26,59,8
+    LTEXT           "Static",IDC_NAME_STATIC,135,9,104,9
+    COMBOBOX        IDC_USER_LEVEL_COMBO,53,56,79,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Level",IDC_STATIC,7,58,15,8
+    PUSHBUTTON      "Update(&U)",IDC_USER_UPDATE_BUTTON,132,54,38,14
+    PUSHBUTTON      "Add",IDC_USER_CREATE_BUTTON,14,201,46,14
+    PUSHBUTTON      "Recover",IDC_USER_RESTORE_BUTTON,129,201,104,14
+    PUSHBUTTON      "Remove",IDC_USER_DELETE_BUTTON,61,201,50,14
+END
+
+IDD_JOBLOGDIALOG DIALOGEX 0, 0, 291, 264
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Job"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Find(&S)",IDC_JOB_LOG_FIND_BUTTON,217,16,60,14
+    PUSHBUTTON      "Stop(&C)",IDC_JOB_LOG_STOP_BUTTON,217,34,60,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_JOB_LOG_EXCEL_BUTTON,224,58,60,
+                    14
+    CONTROL         "",IDC_JOB_LOG_RESULT_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,11,78,273,179
+    CONTROL         "",IDC_JOB_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,67,60,155,13
+    GROUPBOX        "Find",IDC_STATIC,11,8,273,47
+    LTEXT           "From",IDC_STATIC,191,24,18,8
+    LTEXT           "result size",IDC_JOB_LOG_RESULT_STATIC,15,61,50,8
+    LTEXT           "Until",IDC_STATIC,191,41,15,8
+    CONTROL         "",IDC_JOB_LOG_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,15,20,
+                    100,15
+    CONTROL         "",IDC_JOB_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,15,36,
+                    100,15
+    CONTROL         "",IDC_JOB_LOG_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,117,20,72,15
+    CONTROL         "",IDC_JOB_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,117,36,72,15
+END
+
+IDD_FAMILYPOINTLOGDIALOG DIALOGEX 0, 0, 287, 266
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Log of Family point"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Find(&S)",IDC_FAMILY_POINT_LOG_FIND_BUTTON,205,15,69,14
+    PUSHBUTTON      "Stop(&C)",IDC_FAMILY_POINT_LOG_STOP_BUTTON,204,33,69,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_FAMILY_POINT_LOG_EXCEL_BUTTON,
+                    220,59,60,14
+    CONTROL         "",IDC_FAMILY_POINT_LOG_RESULT_LIST,"SysListView32",
+                    LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,79,
+                    273,179
+    CONTROL         "",IDC_FAMILY_POINT_LOG_RESULT_PROGRESS,
+                    "msctls_progress32",WS_BORDER | 0x1,60,60,155,13
+    GROUPBOX        "Find",IDC_STATIC,7,7,273,47
+    LTEXT           "From",IDC_STATIC,184,21,15,8
+    LTEXT           "result size",IDC_FAMILY_POINT_LOG_RESULT_STATIC,7,62,50,
+                    8
+    LTEXT           "Until",IDC_STATIC,184,38,15,8
+    CONTROL         "",IDC_FAMILY_POINT_LOG_BEGIN_DATE_CTRL,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | 
+                    WS_TABSTOP,12,18,100,15
+    CONTROL         "",IDC_FAMILY_POINT_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,34,
+                    100,15
+    CONTROL         "",IDC_FAMILY_POINT_LOG_BEGIN_TIME_CTRL,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    DTS_SHOWNONE | WS_TABSTOP | 0x8,112,18,70,15
+    CONTROL         "",IDC_FAMILY_POINT_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,112,34,70,15
+END
+
+IDD_GUILDSCORELOGDIALOG DIALOGEX 0, 0, 287, 265
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Guild Score Log"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Find(&S)",IDC_GUILD_SCORE_LOG_FIND_BUTTON,205,15,68,14
+    PUSHBUTTON      "Stop(&C)",IDC_GUILD_SCORE_LOG_STOP_BUTTON,205,34,68,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_GUILD_SCORE_LOG_EXCEL_BUTTON,220,
+                    58,60,14
+    CONTROL         "",IDC_GUILD_SCORE_LOG_RESULT_LIST,"SysListView32",
+                    LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,78,
+                    273,179
+    CONTROL         "",IDC_GUILD_SCORE_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,60,59,155,13
+    GROUPBOX        "Find",IDC_STATIC,7,7,273,47
+    LTEXT           "From",IDC_STATIC,184,21,15,8
+    LTEXT           "result size",IDC_GUILD_SCORE_LOG_RESULT_STATIC,7,61,50,
+                    8
+    LTEXT           "Until",IDC_STATIC,184,38,15,8
+    CONTROL         "",IDC_GUILD_SCORE_LOG_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,18,
+                    100,15
+    CONTROL         "",IDC_GUILD_SCORE_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,34,
+                    100,15
+    CONTROL         "",IDC_GUILD_SCORE_LOG_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,112,18,70,15
+    CONTROL         "",IDC_GUILD_SCORE_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,112,34,70,15
+END
+
+IDD_FAMILYCROPLOGDIALOG DIALOGEX 0, 0, 287, 264
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Log of crop"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Find(&S)",IDC_FAMILY_CROP_LOG_FIND_BUTTON,207,15,67,14
+    PUSHBUTTON      "Stop(&C)",IDC_FAMILY_CROP_LOG_STOP_BUTTON,206,33,67,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_FAMILY_CROP_LOG_EXCEL_BUTTON,220,
+                    57,60,14
+    CONTROL         "",IDC_FAMILY_CROP_LOG_RESULT_LIST,"SysListView32",
+                    LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,78,
+                    273,179
+    CONTROL         "",IDC_FAMILY_CROP_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,60,58,155,13
+    GROUPBOX        "Find",IDC_STATIC,7,7,273,47
+    LTEXT           "From",IDC_STATIC,184,22,15,8
+    LTEXT           "result size",IDC_FAMILY_CROP_LOG_RESULT_STATIC,7,60,50,
+                    8
+    LTEXT           "Until",IDC_STATIC,184,39,15,8
+    CONTROL         "",IDC_FARM_CROP_LOG_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,19,
+                    100,15
+    CONTROL         "",IDC_FARM_CROP_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,35,
+                    100,15
+    CONTROL         "",IDC_FARM_CROP_LOG_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,112,19,71,15
+    CONTROL         "",IDC_FARM_CROP_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,112,35,71,15
+END
+
+IDD_ITEMADDDIALOG DIALOGEX 0, 0, 211, 287
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Select item"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_ITEM_ADD_INDEX_EDIT,42,213,151,14,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    COMBOBOX        IDC_ITEM_ADD_COMBO,43,245,150,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add(&S)",IDOK,7,264,197,16,NOT WS_TABSTOP
+    CONTROL         "",IDC_ITEM_ADD_TAB,"SysTabControl32",0x0,7,7,197,186
+    CONTROL         "",IDC_ITEM_ADD_LIST_WEAPON,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,15,26,178,157
+    CONTROL         "",IDC_ITEM_ADD_LIST_POTION,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,15,26,178,157
+    CONTROL         "",IDC_ITEM_ADD_LIST_MATERIAL,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,15,26,178,157
+    LTEXT           "Input item name all or partly",IDC_STATIC,15,199,129,8
+    LTEXT           "No item selected",IDC_ITEM_ADD_NAME_STATIC,45,231,148,8
+    CONTROL         "",IDC_ITEM_ADD_LIST_ETC,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,15,26,178,157
+    LTEXT           "Find",IDC_STATIC,8,247,15,8
+    LTEXT           "keyword",IDC_STATIC,7,216,30,8
+END
+
+IDD_USERCREATEDIALOG DIALOGEX 0, 0, 110, 130
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Add player"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Add(&C)",IDOK,7,107,96,16
+    COMBOBOX        IDC_USER_CREATE_RACE_COMBO,34,7,68,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_USER_CREATE_JOB_COMBO,34,23,68,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_USER_CREATE_JOB_GENDER_COMBO,34,39,68,30,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_USER_CREATE_HAIR_COMBO,34,55,68,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_USER_CREATE_FACE_COMBO,34,71,68,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_USER_CREATE_NAME_EDIT,34,87,68,14,ES_AUTOHSCROLL
+    LTEXT           "Race",IDC_STATIC,7,10,15,8
+    LTEXT           "Job",IDC_STATIC,7,26,22,8
+    LTEXT           "Gender",IDC_STATIC,7,42,15,8
+    LTEXT           "Hair",IDC_STATIC,7,59,15,8
+    LTEXT           "Face",IDC_STATIC,7,75,15,8
+    LTEXT           "Name",IDC_STATIC,7,91,15,8
+END
+
+IDD_USERRESTOREDIALOG DIALOGEX 0, 0, 194, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Name"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_NAME_INPUT_EDIT,71,31,88,14,ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL
+    PUSHBUTTON      "Submit",IDOK,7,50,180,16
+    LTEXT           "Input player name to recover",IDC_NAME_INPUT_STATIC,7,7,
+                    180,20
+    LTEXT           "name",IDC_STATIC,35,33,31,8
+END
+
+IDD_QUESTLOGDIALOG DIALOGEX 0, 0, 287, 279
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Log of Quest"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_QUEST_LOG_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,10,
+                    100,15
+    CONTROL         "",IDC_QUEST_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,113,28,69,15
+    CONTROL         "",IDC_QUEST_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,28,
+                    100,15
+    CONTROL         "",IDC_QUEST_LOG_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,113,11,69,15
+    DEFPUSHBUTTON   "Find(&S)",IDC_QUEST_LOG_FIND_BUTTON,207,8,67,14
+    PUSHBUTTON      "Stop(&C)",IDC_QUEST_LOG_STOP_BUTTON,207,26,66,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_QUEST_LOG_EXCEL_BUTTON,220,52,60,
+                    14
+    CONTROL         "",IDC_QUEST_LOG_RESULT_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,7,73,273,179
+    CONTROL         "",IDC_QUEST_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,60,53,155,13
+    GROUPBOX        "Find",IDC_STATIC,7,0,273,47
+    LTEXT           "From",IDC_STATIC,188,14,18,8
+    LTEXT           "result size",IDC_QUEST_LOG_RESULT_STATIC,7,55,50,8
+    LTEXT           "Until",IDC_STATIC,188,31,15,8
+    PUSHBUTTON      "Copy to clipboard selected line(&B)",
+                    IDC_QUEST_LOG_CLIPBOARD_BUTTON,7,258,273,14
+END
+
+IDD_PERMISSIONDIALOG DIALOGEX 0, 0, 167, 113
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Manager Allowed IP"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_PERMISSION_IPADDRESS,"SysIPAddress32",WS_TABSTOP,
+                    58,7,100,15
+    PUSHBUTTON      "Remove",IDC_PERMISSION_REMOVE_BUTTON,80,28,80,14
+    PUSHBUTTON      "Add(&A)",IDC_PERMISSION_ADD_BUTTON,7,28,70,14
+    LTEXT           "Any player can connect to game from allowed IP. This purpose is that in blocked IP area you can open to limited IP",
+                    IDC_STATIC,7,54,150,51
+    LTEXT           "IP address",IDC_STATIC,14,10,23,8
+END
+
+IDD_DATEDIALOG DIALOGEX 0, 0, 207, 100
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Update valid date of cash item"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Submit(&S)",IDOK,77,77,50,16
+    COMBOBOX        IDC_DATE_YEAR_COMBO,7,7,29,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DATE_MONTH_COMBO,62,7,29,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DATE_DAY_COMBO,123,7,29,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DATE_HOUR_COMBO,7,29,29,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DATE_MINUTE_COMBO,62,29,29,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DATE_SECOND_COMBO,123,29,29,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Year",IDC_STATIC,39,9,23,8
+    LTEXT           "Month",IDC_STATIC,95,8,24,8
+    LTEXT           "Day",IDC_STATIC,155,9,14,8
+    LTEXT           "Hour",IDC_STATIC,38,30,20,8
+    LTEXT           "Minute",IDC_STATIC,94,31,28,8
+    CTEXT           "Previous data",IDC_DATE_PREVIOUS_DATA_STATIC,7,50,193,
+                    13
+    LTEXT           "Second",IDC_STATIC,155,30,34,8
+END
+
+IDD_SKILLREPORTDIALOG DIALOGEX 0, 0, 206, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Report of Skill"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_SKILL_REPORT_LIST_CTRL,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | 
+                    WS_TABSTOP,7,7,192,158
+    LTEXT           "caution: Tool cannot separate skill that added from operator",
+                    IDC_STATIC,7,171,191,23
+END
+
+IDD_OPERATORDIALOG DIALOGEX 0, 0, 351, 223
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Manager operator"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_OPERATOR_LIST_CTRL,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,
+                    12,20,153,83
+    LTEXT           "ID",IDC_OPERATOR_ID_STATIC,26,108,22,8
+    LTEXT           "Name",IDC_OPERATOR_NAME_STATIC,26,121,15,8
+    EDITTEXT        IDC_OPERATOR_ID_EDIT,50,105,97,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_OPERATOR_NAME_EDIT,50,119,97,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Authority",IDC_OPERATOR_AUTH_STATIC,26,135,15,8
+    COMBOBOX        IDC_OPERATOR_AUTH_COMBO,50,133,97,30,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_OPERATOR_IPADDRESS,"SysIPAddress32",WS_TABSTOP,
+                    202,109,100,15
+    CONTROL         "",IDC_IP_LIST_CTRL,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,
+                    183,20,153,83
+    PUSHBUTTON      "+",IDC_OPERATOR_UPDATE_BUTTON,147,133,14,12
+    GROUPBOX        "Management team",IDC_STATIC,7,7,165,209
+    GROUPBOX        "Allowed IP",IDC_STATIC,177,7,167,209
+    GROUPBOX        "Add",IDC_STATIC,13,181,151,29
+    EDITTEXT        IDC_OPERATOR_ADD_ID_EDIT,41,191,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OPERATOR_ADD_NAME_EDIT,104,191,40,14,ES_AUTOHSCROLL
+    LTEXT           "ID",IDC_STATIC,17,194,22,8
+    LTEXT           "Name",IDC_STATIC,87,194,15,8
+    PUSHBUTTON      "+",IDC_OPERATOR_ADD_BUTTON,143,191,16,14
+    LTEXT           "IP",IDC_STATIC,191,112,8,8
+    PUSHBUTTON      "+",IDC_OPERATOR_IP_ADD_BUTTON,302,109,17,14
+    PUSHBUTTON      "-",IDC_OPERATOR_IP_REMOVE_BUTTON,319,109,17,14
+    LTEXT           "If someone want to connect Recovery Server, one's ip is registed to server",
+                    IDC_STATIC,185,132,149,62
+    LTEXT           "Static",IDC_OPERATOR_RANK_STATIC,14,152,155,21
+END
+
+IDD_PASSWORDDIALOG DIALOGEX 0, 0, 191, 123
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "비밀Index Update"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_PASSWORD_PREV_EDIT,92,7,91,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "Current password",IDC_STATIC,7,10,31,8
+    EDITTEXT        IDC_PASSWORD_NEXT_EDIT,92,33,91,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "Changing password",IDC_STATIC,7,39,60,8
+    EDITTEXT        IDC_PASSWORD_NEXT_CONFIRM_EDIT,92,49,91,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "Confirm again",IDC_STATIC,7,52,76,8
+    PUSHBUTTON      "Update(&M)",IDOK,7,102,177,14
+    LTEXT           "* If you lost password, request to manager",IDC_STATIC,
+                    7,79,177,15
+END
+
+IDD_OPERATORLOGDIALOG DIALOGEX 0, 0, 281, 293
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Log for operator"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_OPERATOR_LOG_BEGIN_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,26,
+                    100,15
+    CONTROL         "",IDC_OPERATOR_LOG_END_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,113,45,71,15
+    CONTROL         "",IDC_OPERATOR_LOG_END_DATE_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,45,
+                    100,15
+    CONTROL         "",IDC_OPERATOR_LOG_BEGIN_TIME_CTRL,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,113,27,70,15
+    DEFPUSHBUTTON   "Find(&S)",IDC_OPERATOR_LOG_FIND_BUTTON,205,26,69,14
+    PUSHBUTTON      "Stop(&C)",IDC_OPERATOR_LOG_STOP_BUTTON,205,45,68,14
+    PUSHBUTTON      "Save to Excel(&E)",IDC_OPERATOR_LOG_EXCEL_BUTTON,214,69,
+                    60,14
+    CONTROL         "",IDC_OPERATOR_LOG_RESULT_LIST,"SysListView32",
+                    LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,7,90,267,179
+    CONTROL         "",IDC_OPERATOR_LOG_RESULT_PROGRESS,"msctls_progress32",
+                    WS_BORDER | 0x1,60,70,155,13
+    LTEXT           "From",IDC_STATIC,185,30,17,8
+    LTEXT           "result size",IDC_QUEST_LOG_RESULT_STATIC,7,71,50,8
+    LTEXT           "Until",IDC_STATIC,185,47,15,8
+    PUSHBUTTON      "Copy to clipboard selected line(&B)",
+                    IDC_OPERATOR_LOG_CLIPBOARD_BUTTON,7,272,267,14
+    COMBOBOX        IDC_OPERATOR_LOG_SERVER_COMBO,34,7,80,30,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Server",IDC_STATIC,10,9,23,8
+    COMBOBOX        IDC_OPERATOR_LOG_COMBO,165,7,65,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Operator",IDC_STATIC,123,9,15,8
+END
+
+IDD_NAMELOGDIALOG DIALOGEX 0, 0, 207, 180
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Log of changing name"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_NAME_LOG_LIST_CTRL,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,7,7,193,148
+    PUSHBUTTON      "Copy selected lines to clipboard(&C)",
+                    IDC_NAME_LOG_CLIPBOARD_BUTTON,7,159,193,14
+END
+
+IDD_QUANTITYDIALOG DIALOGEX 0, 0, 99, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Input quantity"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_QUANTITY_COMBO,34,7,48,30,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Submit",IDOK,7,41,85,14
+    LTEXT           "Quantity",IDC_STATIC,7,9,15,8
+END
+
+IDD_QUESTITEMADDDIALOG DIALOGEX 0, 0, 187, 296
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Add quest item"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Submit",IDOK,6,273,174,16
+    CONTROL         "",IDC_QUEST_ITEM_FINDED_QUEST_LIST,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,55,174,58
+    CONTROL         "",IDC_QUEST_ITEM_FINDED_ITEM_LIST,"SysListView32",
+                    LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,171,174,58
+    LTEXT           "Item",IDC_STATIC,6,159,22,8
+    LTEXT           "Quest",IDC_STATIC,6,44,22,8
+    EDITTEXT        IDC_QUEST_ITEM_ADD_EDIT,6,19,90,14,ES_AUTOHSCROLL
+    LTEXT           "Input keyword",IDC_STATIC,6,7,65,8
+    CONTROL         "Quest",IDC_QUEST_ITEM_ADD_QUEST_RADIO,"Button",
+                    BS_AUTORADIOBUTTON,102,21,37,10
+    CONTROL         "Item",IDC_QUEST_ITEM_ADD_ITEM_RADIO,"Button",
+                    BS_AUTORADIOBUTTON,143,21,37,10
+    LTEXT           "There is no quest",
+                    IDC_QUEST_ITEM_ADD_QUEST_DESC_STATIC,6,116,174,30
+    LTEXT           "There is no item",
+                    IDC_QUEST_ITEM_ADD_ITEM_DESC_STATIC,6,232,174,30
+END
+
+IDD_ITEMPOSITIONDIALOG DIALOGEX 0, 0, 238, 136
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Select position of item"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Submit",IDOK,7,113,112,16
+    PUSHBUTTON      "Cancel",IDCANCEL,119,113,112,16
+    LTEXT           "Please check whether player connect to game. User must be disconnect from game",
+                    IDC_STATIC,7,79,224,29
+    CTEXT           "Select position to save item",IDC_STATIC,7,7,224,
+                    14
+    CONTROL         "Inventory",IDC_ITEM_POSITION_INVENTORY_RADIO,"Button",
+                    BS_AUTORADIOBUTTON,7,29,224,10
+    CONTROL         "Private storage",IDC_ITEM_POSITION_PRIVATE_STORAGE_RADIO,
+                    "Button",BS_AUTORADIOBUTTON,7,44,224,10
+    CONTROL         "Charged item storage",IDC_ITEM_POSITION_CASH_STORAGE_RADIO,
+                    "Button",BS_AUTORADIOBUTTON,7,58,224,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,0
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "(C) Eya Interactive"
+            VALUE "FileDescription", "루나 복구 도구"
+            VALUE "FileVersion", "2, 0, 0, 0"
+            VALUE "InternalName", "client.exe"
+            VALUE "LegalCopyright", "(C) Eya Interactive.  All rights reserved."
+            VALUE "OriginalFilename", "client.exe"
+            VALUE "ProductName", "Luna Online: Recovery Tool"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 307
+    END
+
+    IDD_LOGINDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_NEWUSERDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 104
+        VERTGUIDE, 33
+        VERTGUIDE, 86
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+
+    IDD_PLAYERDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 369
+        HORZGUIDE, 363
+    END
+
+    IDD_ITEMDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        VERTGUIDE, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 397
+        HORZGUIDE, 38
+        HORZGUIDE, 393
+    END
+
+    IDD_WAITDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_SKILLDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 288
+    END
+
+    IDD_ITEMFINDDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 372
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_FAMILYDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        VERTGUIDE, 48
+        VERTGUIDE, 109
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 297
+    END
+
+    IDD_QUESTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        VERTGUIDE, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 335
+    END
+
+    IDD_GUILDDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        VERTGUIDE, 13
+        VERTGUIDE, 52
+        VERTGUIDE, 354
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 357
+    END
+
+    IDD_EXPERIENCELOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+
+    IDD_ITEMLOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 289
+        HORZGUIDE, 42
+    END
+
+    IDD_STATLOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_SKILLLOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+
+    IDD_ITEMOPTIONLOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+
+    IDD_GUILDLOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+
+    IDD_GUILDWAREHOUSELOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 295
+    END
+
+    IDD_USERDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        VERTGUIDE, 111
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+        HORZGUIDE, 131
+    END
+
+    IDD_JOBLOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 284
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 257
+    END
+
+    IDD_FAMILYPOINTLOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_GUILDSCORELOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+    END
+
+    IDD_FAMILYCROPLOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 257
+    END
+
+    IDD_ITEMADDDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        VERTGUIDE, 15
+        VERTGUIDE, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 280
+        HORZGUIDE, 26
+        HORZGUIDE, 183
+    END
+
+    IDD_USERCREATEDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 103
+        VERTGUIDE, 7
+        VERTGUIDE, 34
+        VERTGUIDE, 102
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_USERRESTOREDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_QUESTLOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 272
+    END
+
+    IDD_PERMISSIONDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+        HORZGUIDE, 42
+    END
+
+    IDD_DATEDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_SKILLREPORTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_OPERATORDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 344
+        VERTGUIDE, 137
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_PASSWORDDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        VERTGUIDE, 92
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_OPERATORLOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 286
+    END
+
+    IDD_NAMELOGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_QUANTITYDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 92
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_QUESTITEMADDDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 289
+    END
+
+    IDD_ITEMPOSITIONDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 129
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_WAIT_LOADING_GIF    GIF                     "res\\loader.gif"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    ID_MENU_FAMILY_DIALOG   "Find family"
+    IDS_DATE_DIALOG_TEXT1   "Original data"
+    ID_MENU_PERMISSION_DIALOG "Manage allowed IP to connect"
+    ID_LOG_SAVE             "Save log"
+    ID_LOG_PRINT            "Print log"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MENU_NEWUSER_DIALOG  "Find player"
+    ID_MENU_ITEM_SEARCH_DIALOG "Find Player who owned specific item"
+    ID__MENU_GUILD_FIND_DIALOG "Find guild"
+    ID_MENU_GUILD_DIALOG    "Find guild"
+    ID__MENU_ITEM_LOG_DIALOG "Log for item"
+    ID__MENU_FAMILY_DIALOG  "Find family"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore window to normal size"
+    AFX_IDS_SCTASKLIST      "Enable work list"
+    AFX_IDS_MDICHILD        "Enable window"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Update window size"
+    AFX_IDS_SCMOVE          "Update window position"
+    AFX_IDS_SCMINIMIZE      "Minimize window to icon size"
+    AFX_IDS_SCMAXIMIZE      "Maxmize window to full screen"
+    AFX_IDS_SCNEXTWINDOW    "Switch to next document"
+    AFX_IDS_SCPREVWINDOW    "Switch to previous document"
+    AFX_IDS_SCCLOSE         "Ask for saving document and close activated window"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Hide or display tool group"
+    ID_VIEW_STATUS_BAR      "Hide or display status Bar"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase selected area\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase all\nErase all"
+    ID_EDIT_COPY            "Insert to clipboard after copying selected area\nCopy"
+    ID_EDIT_CUT             "Insert to clipboard after cutting selected area\nCut"
+    ID_EDIT_FIND            "Find specific text\nFind"
+    ID_EDIT_PASTE           "Insert content of clipboard\nPaste"
+    ID_EDIT_REPEAT          "Repeat final action\nRepeat"
+    ID_EDIT_REPLACE         "Change text to other text\nChange"
+    ID_EDIT_SELECT_ALL      "Select all document\nSelect all"
+    ID_EDIT_UNDO            "Cancel final action\nCancel action"
+    ID_EDIT_REDO            "Redo previous canceled action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_ARRANGE       "Sort window as icon\nIcon sort"
+    ID_WINDOW_CASCADE       "Sort window as cascade\nCascade sort"
+    ID_WINDOW_TILE_HORZ     "Sort windows as tile\nTile sort"
+    ID_WINDOW_TILE_VERT     "Sort windows as tile\nTile sort"
+    ID_WINDOW_SPLIT         "Divide window active window\nDivide"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to next window\nNext window"
+    ID_PREV_PANE            "Switch to previous window\nPrevious window"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version index, copyright\nInformation"
+    ID_APP_EXIT             "Exit program after asking saving document\nQuit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "New document\nNew"
+    ID_FILE_CLOSE           "Close active document\nClose"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "client"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Recovery Tool for Luna Online"
+    IDR_clientTYPE          "\nclient\nclient"
+    IDS_STRING130           "Your computer have blocked IP. Request to manager"
+    IDS_STRING131           "It's connection fault. Request to developer"
+    IDS_STRING132           "You're logged in already. If it's stolen, request to manager"
+    IDS_STRING133           "It's blocked IP. Request to manager"
+    IDS_STRING134           "It's wrong ID or password"
+    IDS_STRING135           "Recent build: %s %s"
+    IDS_STRING136           "IP Address"
+    IDS_STRING137           "There is no server to connect. Request to manager"
+    IDS_STRING138           "ID or password is empty"
+    IDS_STRING139           "ID"
+    IDS_STRING140           "Connected IP address"
+    IDS_STRING141           "Default password is luna. To security operator should change password directly"
+    IDS_STRING142           "It's existed ID"
+    IDS_STRING143           "ID or name is empty"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING1             "There is no result"
+    IDS_STRING2             "Search was stopped"
+    IDS_STRING3             "Date"
+    IDS_STRING4             "Type"
+    IDS_STRING5             "Level"
+    IDS_STRING6             "Varitety"
+    IDS_STRING7             "Killer type"
+    IDS_STRING8             "Killer Index"
+    IDS_STRING9             "Experience"
+    IDS_STRING10            "Log"
+    IDS_STRING11            "Farm Index"
+    IDS_STRING12            "Owned Player"
+    IDS_STRING13            "DB Index"
+    IDS_STRING14            "Crop"
+    IDS_STRING15            "Life"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING16            "Seed grade"
+    IDS_STRING17            "Memo"
+    IDS_STRING18            "You have no authority"
+    IDS_STRING19            "Master"
+    IDS_STRING20            "Name"
+    IDS_STRING21            "Nick"
+    IDS_STRING22            "Index"
+    IDS_STRING23            "Owner index"
+    IDS_STRING24            "Owned"
+    IDS_STRING25            "Enable"
+    IDS_STRING26            "Unable"
+    IDS_STRING27            "Crop DB Index"
+    IDS_STRING28            "Request was succeed"
+    IDS_STRING29            "Request cannot proceed"
+    IDS_STRING30            "%s Server: %s ... Family data"
+    IDS_STRING31            "Select target"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING32            "Keyword is empty"
+    IDS_STRING33            "There is no farm"
+    IDS_STRING34            "Point"
+    IDS_STRING35            "%s (%d): %dLevel"
+    IDS_STRING36            "%s's rank is changed to%s"
+    IDS_STRING37            "Changing rank is failed"
+    IDS_STRING38            "%s is kicked from guild"
+    IDS_STRING39            "Exile is failed by system fault"
+    IDS_STRING40            "One is not member. Please update guild data"
+    IDS_STRING41            "Exile is failed why It's one member guild"
+    IDS_STRING42            "Quantity"
+    IDS_STRING43            "Rank"
+    IDS_STRING44            "Joined date"
+    IDS_STRING45            "Member"
+    IDS_STRING46            "Do you proceed it? Update'll not apply to member who playe game now"
+    IDS_STRING47            "Do you really kick %s from guild? It cannot rollback\n\ncaution: It must run only no service time"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING48            "If you change %s's rank to %s, there is no %s in guild. Do you proceed it?"
+    IDS_STRING49            "%s have %s rank already. Guild cannot have two master"
+    IDS_STRING50            "Do you update %s's rank to %s?\n\ncaution: you should do it on no service time only"
+    IDS_STRING51            "Actor"
+    IDS_STRING52            "Target"
+    IDS_STRING53            "Equipment"
+    IDS_STRING54            "Player"
+    IDS_STRING55            "Option"
+    IDS_STRING56            "Start pos."
+    IDS_STRING57            "End pos."
+    IDS_STRING58            "Price"
+    IDS_STRING59            "Potion"
+    IDS_STRING60            "Material"
+    IDS_STRING61            "Etc"
+    IDS_STRING62            "Input item name or index"
+    IDS_STRING63            "Such item is not exist"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING64            "Item is removed"
+    IDS_STRING65            "Option is erased"
+    IDS_STRING66            "Item is added"
+    IDS_STRING67            "Item cannot add"
+    IDS_STRING68            "Position"
+    IDS_STRING69            "Data"
+    IDS_STRING70            "Strength"
+    IDS_STRING71            "Dexterity"
+    IDS_STRING72            "Vitality"
+    IDS_STRING73            "Intelligence"
+    IDS_STRING74            "Wisdom"
+    IDS_STRING75            "Life"
+    IDS_STRING76            "Mana"
+    IDS_STRING77            "Life recovery"
+    IDS_STRING78            "Mana recovery"
+    IDS_STRING79            "physical attack"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING80            "Physical defence"
+    IDS_STRING81            "Magical attack"
+    IDS_STRING82            "Magical defence"
+    IDS_STRING83            "Move speed"
+    IDS_STRING84            "Evade"
+    IDS_STRING85            "Accuracy"
+    IDS_STRING86            "Critical rate"
+    IDS_STRING87            "Critical damage"
+    IDS_STRING88            "Worker"
+    IDS_STRING89            "Reinforce"
+    IDS_STRING90            "Mix"
+    IDS_STRING91            "Enchant"
+    IDS_STRING92            "Gender"
+    IDS_STRING93            "Max level"
+    IDS_STRING94            "Stat point"
+    IDS_STRING95            "Money"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING96            "Skill point"
+    IDS_STRING97            "CashStorage"
+    IDS_STRING98            "[Buy]"
+    IDS_STRING99            "[Option]"
+    IDS_STRING100           "[Sealing]"
+    IDS_STRING101           "[Unsealing]"
+    IDS_STRING102           "[time]"
+    IDS_STRING103           "It's is not proper item"
+    IDS_STRING104           "Max level of enchant is %d"
+    IDS_STRING105           "Position is duplicated"
+    IDS_STRING106           "Item position is invalid"
+    IDS_STRING107           "Do you initialize it really?"
+    IDS_STRING108           "Do you remove it really?"
+    IDS_STRING109           "%s Server: %s's Item"
+    IDS_STRING110           "Space to store item is full"
+    IDS_STRING111           "Do you create to %d pos. %s?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING112           "%dDate"
+    IDS_STRING113           "%dHour"
+    IDS_STRING114           "%dMinute"
+    IDS_STRING115           "%dSecond"
+    IDS_STRING116           "%s (%s Server: %d found)"
+    IDS_STRING117           "Log of item"
+    IDS_STRING118           "Sent player"
+    IDS_STRING119           "Sent player index"
+    IDS_STRING120           "Send player money"
+    IDS_STRING121           "Received player"
+    IDS_STRING122           "Received player index"
+    IDS_STRING123           "Received player money"
+    IDS_STRING124           "Variation of money"
+    IDS_STRING125           "%s: moving history"
+    IDS_STRING126           "Job"
+    IDS_STRING127           "You are connect to Recovery Server for Luna Online\n\ncaution:\tIt's dangerous chaning data of player who is playing game. You can check it on User data"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING144           "Naming ID is valid with english or number"
+    IDS_STRING145           "IP address is invalid"
+    IDS_STRING146           "It's registed IP already"
+    IDS_STRING147           "You have no authority"
+    IDS_STRING148           "Read is enable only"
+    IDS_STRING149           "Read and write are enable except operator management"
+    IDS_STRING150           "All function can use"
+    IDS_STRING151           "Key"
+    IDS_STRING152           "Value"
+    IDS_STRING153           "Password confirming is wrong"
+    IDS_STRING154           "Password length should do over %d character"
+    IDS_STRING155           "Password is consist of english or number"
+    IDS_STRING156           "Please consist password with english or number"
+    IDS_STRING157           "Connection is allowed"
+    IDS_STRING158           "It's address that already allowed"
+    IDS_STRING159           "It's removed"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING160           "It's not address in list"
+    IDS_STRING161           "Play time"
+    IDS_STRING162           "Extended inventory size"
+    IDS_STRING163           "Map"
+    IDS_STRING164           "Guild"
+    IDS_STRING165           "Family"
+    IDS_STRING166           "Last connection"
+    IDS_STRING167           "Connection enable"
+    IDS_STRING168           "OriginalnName"
+    IDS_STRING169           "Birth"
+    IDS_STRING170           "Born IP"
+    IDS_STRING171           "Removed date"
+    IDS_STRING172           "Removed IP"
+    IDS_STRING173           "Recovered date"
+    IDS_STRING174           "Recovered IP"
+    IDS_STRING175           "Game"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING176           "General"
+    IDS_STRING177           "Female"
+    IDS_STRING178           "Male"
+    IDS_STRING179           "If you want to find option Log, check item db Index"
+    IDS_STRING180           "Some player have same name"
+    IDS_STRING181           "%s Server: %s ... Player"
+    IDS_STRING182           "Select %d favorited things"
+    IDS_STRING183           "Select %d disfavorited thing"
+    IDS_STRING184           "You cannot select favorited and disfavorited things together"
+    IDS_STRING185           "Empty value is found"
+    IDS_STRING186           "If you change job forcely, problem can occur"
+    IDS_STRING187           "Duplicated quest is %d found"
+    IDS_STRING188           "Finished"
+    IDS_STRING189           "Item"
+    IDS_STRING190           "Quest"
+    IDS_STRING191           "Main"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING192           "Secondary"
+    IDS_STRING193           "Hunting target"
+    IDS_STRING194           "Do you proceed it? If you finish sub quest forcely, it may occur you should do main quest again"
+    IDS_STRING195           "%s Server: %s ... Quest"
+    IDS_STRING196           "There is no duplicated quest"
+    IDS_STRING197           "Passive"
+    IDS_STRING199           "Cost"
+    IDS_STRING201           "Do you add it really?"
+    IDS_STRING200           "%s Server: %s ... Skill"
+    IDS_STRING202           "To learn skill you cost %d point and %d gold"
+    IDS_STRING203           "Nothing"
+    IDS_STRING204           "Sum"
+    IDS_STRING205           "Human"
+    IDS_STRING206           "Elf"
+    IDS_STRING207           "Warror"
+    IDS_STRING208           "Mage"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING209           "Thief"
+    IDS_STRING210           "Hair"
+    IDS_STRING211           "Face"
+    IDS_STRING212           "%s Server: %s ... User"
+    IDS_STRING213           "using Agent #%d"
+    IDS_STRING214           "Disconnect"
+    IDS_STRING215           "Remove player is enable after seceding from family"
+    IDS_STRING216           "Remove player is enable after seceding from party"
+    IDS_STRING217           "Remove player is enable after seceding from guild"
+    IDS_STRING218           "Player who have same name is existed already"
+    IDS_STRING219           "Player name is same to guild"
+    IDS_STRING220           "There is no space to add player"
+    IDS_STRING221           "There is no space to recovery player"
+    IDS_STRING222           "It's not existed player. Request to developer"
+    IDS_STRING223           "Recovery is failed why same name exist in player, user, guild or family"
+    IDS_STRING224           "You can have %d player only"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING225           "Do you remove %s? You may different name after recovering this player"
+    IDS_STRING226           "%d seconds left"
+    IDS_STRING227           "There is no server to request. Ask to developer"
+    IDS_STRING228           "Please install Microsoft Excel(97 over)"
+    IDS_STRING229           "Save to %s"
+    IDS_STRING230           "Master"
+    IDS_STRING231           "Vice master"
+    IDS_STRING232           "Older"
+    IDS_STRING233           "Senior"
+    IDS_STRING234           "Junior"
+    IDS_STRING235           "Student"
+    IDS_STRING236           "No member"
+    IDS_STRING237           "Begin time to find should less more then end one"
+    IDS_STRING238           "Get score"
+    IDS_STRING239           "Seed"
+    IDS_STRING240           "Died"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING241           "Grow"
+    IDS_STRING242           "Fertillize"
+    IDS_STRING243           "Harvest"
+    IDS_STRING244           "Secede"
+    IDS_STRING245           "Kick"
+    IDS_STRING246           "Regist"
+    IDS_STRING247           "Birth"
+    IDS_STRING248           "Disband"
+    IDS_STRING249           "Level up"
+    IDS_STRING250           "Level down"
+    IDS_STRING251           "Alliance"
+    IDS_STRING252           "Add"
+    IDS_STRING253           "Remove"
+    IDS_STRING254           "Get score"
+    IDS_STRING255           "Lost score"
+    IDS_STRING256           "Regular"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING257           "Kill"
+    IDS_STRING258           "Won war"
+    IDS_STRING259           "Lose war"
+    IDS_STRING260           "Update score"
+    IDS_STRING261           "Use score"
+    IDS_STRING262           "Cheat"
+    IDS_STRING263           "Recover"
+    IDS_STRING264           "Level Update"
+    IDS_STRING265           "Success"
+    IDS_STRING266           "Failure"
+    IDS_STRING267           "Buy"
+    IDS_STRING268           "Sell"
+    IDS_STRING269           "Stall"
+    IDS_STRING270           "Use"
+    IDS_STRING271           "Cash item"
+    IDS_STRING272           "Sealing"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING273           "Unsealing"
+    IDS_STRING274           "Protect"
+    IDS_STRING275           "Exchange"
+    IDS_STRING276           "Partial"
+    IDS_STRING277           "Dissolving"
+    IDS_STRING278           "Wanted"
+    IDS_STRING279           "Bad honor"
+    IDS_STRING280           "Pet"
+    IDS_STRING281           "Inventory"
+    IDS_STRING282           "Storage"
+    IDS_STRING283           "Cash Item Storage"
+    IDS_STRING284           "Transform"
+    IDS_STRING285           "Big failure"
+    IDS_STRING286           "Monster meter"
+    IDS_STRING287           "Hunting"
+    IDS_STRING288           "Divide"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING289           "Main quest"
+    IDS_STRING290           "Sub quest"
+    IDS_STRING291           "Strat"
+    IDS_STRING292           "Quit"
+    IDS_STRING293           "Discard"
+    IDS_STRING294           "Transfer"
+    IDS_STRING295           "Update"
+    IDS_STRING296           "God"
+    IDS_STRING297           "Programmer"
+    IDS_STRING298           "Developer"
+    IDS_STRING299           "Manager"
+    IDS_STRING300           "Super user"
+    IDS_STRING301           "User"
+    IDS_STRING302           "Sub user"
+    IDS_STRING303           "Blocked user"
+    IDS_STRING304           "Extended Inventory"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING305           "Reader"
+    IDS_STRING306           "Operater"
+    IDS_STRING307           "Manager"
+    IDS_STRING308           "%s file is not found"
+    IDS_STRING309           "Update player data"
+    IDS_STRING311           "Update extended player data"
+    IDS_STRING312           "Update matching data"
+    IDS_STRING313           "Update item"
+    IDS_STRING314           "Update option of item"
+    IDS_STRING315           "Remove item"
+    IDS_STRING316           "Remove option of Item"
+    IDS_STRING317           "Add item"
+    IDS_STRING318           "Update item ended time"
+    IDS_STRING319           "Update item remained time"
+    IDS_STRING320           "Storage Update"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING321           "Add Skill"
+    IDS_STRING322           "Remove Skil"
+    IDS_STRING323           "Update Skill"
+    IDS_STRING324           "Update family"
+    IDS_STRING325           "Remove quest"
+    IDS_STRING326           "Finish sub quest"
+    IDS_STRING327           "Update quest item"
+    IDS_STRING328           "Remove quest item"
+    IDS_STRING329           "Update guild"
+    IDS_STRING330           "Update rank in guild"
+    IDS_STRING331           "Kick member of guild"
+    IDS_STRING332           "Update player"
+    IDS_STRING333           "Add Player"
+    IDS_STRING334           "Remove Player"
+    IDS_STRING335           "Recover Player"
+    IDS_STRING336           "Add allowed IP"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING337           "Remove allowed IP"
+    IDS_STRING338           "Add operator"
+    IDS_STRING339           "Remove operator"
+    IDS_STRING340           "Update operator"
+    IDS_STRING341           "Add IP for operator"
+    IDS_STRING342           "Remove IP for operator"
+    IDS_STRING343           "You cannot connect %s server by invalid version(%d.%d). Check version of this on title"
+    IDS_STRING344           "Item is added: player: [%s(%d)], position: %s(%d), item: %s(%d), quantity: %d개"
+    IDS_STRING345           "Item is updated: player: [%s(%d)], item: %s(%d), quantity: %d, position: %d"
+    IDS_STRING346           "Item valid time is updated: player: [%s(%d)], item: %s(%d), second: %d"
+    IDS_STRING347           "Item option is updated: player: [%s(%d)], item: %s(%d)\n\t[reinforce]\tstrength %d, dexterity %d, vitality %d, intelligence %d, wisdom %d, life %d, mana %d, life recovery %d, mana recovery %d, physical attack %d,  physical defence %d, magical attack %d, magical defence %d\n\t\tmove speed %d, evade %d, accuracy %d, critical rate %d, critical damage %d, maker %s\n\t[mix]\tstrength %d, intelligence %d, dexterity %d, wisdom %d, vitality %d, maker %s\n\t[enchant]\tindex %d, level %d, maker %s"
+    IDS_STRING348           "Item is removed: player: [%s(%d)], item: %s(%d)"
+    IDS_STRING349           "Item option is removed: player: [%s(%d)], item: %s(%d)"
+    IDS_STRING350           "Item end time is updated: player: [%s(%d)], item: %s(%d), second: %d"
+    IDS_STRING351           "Storage data updated: player: [%s(%d)]: size: %d, deposited money: %d"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_LOG_COPY             "Copy log to clipboard"
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\client.rc2"  // Microsoft Visual C++에서 편집되지 않은 리소스
+#include "afxres.rc"         // 표준 구성 요소
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

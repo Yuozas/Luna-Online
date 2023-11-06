@@ -1,0 +1,545 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Luna2Src/!svn/ver/3/trunk/4DyuchiGXMapEditor
+END
+DialogTileSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogTileSet.h
+END
+DlgBarTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DlgBarTool.h
+END
+StdAfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/StdAfx.h
+END
+DialogTilePalette.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogTilePalette.h
+END
+MyListCtrl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/MyListCtrl.cpp
+END
+ItemCount.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/ItemCount.cpp
+END
+BottomPane.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/BottomPane.cpp
+END
+TileTableDesc.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileTableDesc.h
+END
+TileSet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileSet.cpp
+END
+DlgBarHField.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DlgBarHField.h
+END
+4DyuchiGXMapEditor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/4DyuchiGXMapEditor.cpp
+END
+helper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/helper.cpp
+END
+DialogDirectionalLightProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogDirectionalLightProperty.h
+END
+ObjectProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/ObjectProperty.h
+END
+MySplitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/MySplitter.h
+END
+Tool.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/Tool.h
+END
+TileSetPiece.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileSetPiece.h
+END
+LightPosDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/LightPosDlg.h
+END
+DialogHFieldProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogHFieldProperty.h
+END
+DialogTileBrushProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogTileBrushProperty.cpp
+END
+ListBoxContainer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/ListBoxContainer.cpp
+END
+4DyuchiGXMapEditor.sln
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/4DyuchiGXMapEditor.sln
+END
+NpcInfoDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/NpcInfoDlg.h
+END
+StdAfx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/StdAfx.cpp
+END
+DialogTileSet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogTileSet.cpp
+END
+DlgBarTool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DlgBarTool.cpp
+END
+parser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/parser.cpp
+END
+TileView.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileView.h
+END
+4DyuchiGXMapEditor.rc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/4DyuchiGXMapEditor.rc
+END
+DlgBarHField.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DlgBarHField.cpp
+END
+4DyuchiGXMapEditorDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/4DyuchiGXMapEditorDoc.h
+END
+TriggerProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TriggerProperty.cpp
+END
+MyListCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/MyListCtrl.h
+END
+ObjectProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/ObjectProperty.cpp
+END
+LightProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/LightProperty.cpp
+END
+Tool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/Tool.cpp
+END
+BottomPane.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/BottomPane.h
+END
+TileSetPiece.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileSetPiece.cpp
+END
+NpcInfoDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/NpcInfoDlg.cpp
+END
+LoadFailedTextureDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/LoadFailedTextureDialog.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/ReadMe.txt
+END
+DialogTileBrushProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogTileBrushProperty.h
+END
+DialogEditEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogEditEntry.h
+END
+4DyuchiGXMapEditor.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Luna2Src/!svn/ver/3/trunk/4DyuchiGXMapEditor/4DyuchiGXMapEditor.vcproj
+END
+TileSetEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileSetEntry.h
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/parser.h
+END
+ColorPalette.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/ColorPalette.h
+END
+4DyuchiGXMapEditorDoc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/4DyuchiGXMapEditorDoc.cpp
+END
+TileSetView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileSetView.cpp
+END
+DialogEditTileSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogEditTileSet.h
+END
+TileSetApplyer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileSetApplyer.cpp
+END
+TileBrush.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileBrush.h
+END
+sdi.ico
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/sdi.ico
+END
+4DyuchiGXMapEditorView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/4DyuchiGXMapEditorView.cpp
+END
+RightView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/RightView.cpp
+END
+SectionInfoDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/SectionInfoDlg.h
+END
+TriggerProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TriggerProperty.h
+END
+LightProperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/LightProperty.h
+END
+DialogConsole.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogConsole.cpp
+END
+LoadFailedTextureDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/LoadFailedTextureDialog.cpp
+END
+DialogEditEntry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogEditEntry.cpp
+END
+brush.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/brush.h
+END
+TileSetEntry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileSetEntry.cpp
+END
+DialogTilePalette.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogTilePalette.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/resource.h
+END
+ColorPalette.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/ColorPalette.cpp
+END
+MainFrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/MainFrm.h
+END
+DialogEditTileSet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogEditTileSet.cpp
+END
+TileBrush.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileBrush.cpp
+END
+Voidlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/Voidlist.h
+END
+SectionInfoDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/SectionInfoDlg.cpp
+END
+FuncTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/FuncTable.h
+END
+TileSetView.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileSetView.h
+END
+DialogDirectionalLightProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogDirectionalLightProperty.cpp
+END
+TileSetApplyer.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileSetApplyer.h
+END
+MySplitter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/MySplitter.cpp
+END
+ItemCount.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/ItemCount.h
+END
+RightView.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/RightView.h
+END
+4DyuchiGXMapEditorView.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/4DyuchiGXMapEditorView.h
+END
+TileSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileSet.h
+END
+LightPosDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/LightPosDlg.cpp
+END
+DialogHFieldProperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogHFieldProperty.cpp
+END
+4DyuchiGXMapEditor.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/4DyuchiGXMapEditor.h
+END
+brush.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/brush.cpp
+END
+helper.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/helper.h
+END
+DialogConsole.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/DialogConsole.h
+END
+TileView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/TileView.cpp
+END
+MainFrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/MainFrm.cpp
+END
+ListBoxContainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/ListBoxContainer.h
+END
+Voidlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Luna2Src/!svn/ver/2/trunk/4DyuchiGXMapEditor/Voidlist.cpp
+END

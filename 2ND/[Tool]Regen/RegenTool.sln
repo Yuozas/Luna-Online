@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RegenTool", "RegenTool.vcproj", "{21623C51-70A0-4177-BF5C-7D7BB0E902F3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = [Tool]Regen\\
+		SolutionUniqueID = {95E91D20-C150-4CF0-9ADD-1C3D4E52AC80}
+		SccProjectUniqueName1 = RegenTool.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = [Tool]Regen\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{21623C51-70A0-4177-BF5C-7D7BB0E902F3}.Debug.ActiveCfg = Debug|Win32
+		{21623C51-70A0-4177-BF5C-7D7BB0E902F3}.Debug.Build.0 = Debug|Win32
+		{21623C51-70A0-4177-BF5C-7D7BB0E902F3}.Release.ActiveCfg = Release|Win32
+		{21623C51-70A0-4177-BF5C-7D7BB0E902F3}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

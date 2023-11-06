@@ -1,0 +1,21 @@
+[] .\ItemManager.cpp line:6685, time:11월/6일 18시0분14.581초
+[] .\ItemManager.cpp line:8263, time:11월/6일 18시0분14.586초
+[] .\ItemManager.cpp line:8462, msg:분해스크립트(itemDissolve.bin) 가 없습니다, time:11월/6일 18시0분14.590초
+[] .\ItemManager.cpp line:8579, msg:강화 아이템 스크립트(itemReinforce.bin)가 없어요, time:11월/6일 18시0분14.594초
+[] .\ItemManager.cpp line:8846, msg:아이템 업글 스크립트(itemReinforce.bin)가 없어요, time:11월/6일 18시0분14.599초
+[] .\ItemManager.cpp line:10028, msg:아이템 쿨타임 스크립트(itemCoolTime.bin)가 없어요, time:11월/6일 18시0분14.603초
+[] .\ItemManager.cpp line:10352, time:11월/6일 18시0분14.607초
+[] .\ItemManager.cpp line:6685, time:11월/6일 18시0분19.267초
+[] .\ItemManager.cpp line:8263, time:11월/6일 18시0분19.272초
+[] .\ItemManager.cpp line:8462, msg:분해스크립트(itemDissolve.bin) 가 없습니다, time:11월/6일 18시0분19.276초
+[] .\ItemManager.cpp line:8579, msg:강화 아이템 스크립트(itemReinforce.bin)가 없어요, time:11월/6일 18시0분19.280초
+[] .\ItemManager.cpp line:8846, msg:아이템 업글 스크립트(itemReinforce.bin)가 없어요, time:11월/6일 18시0분19.284초
+[] .\ItemManager.cpp line:10028, msg:아이템 쿨타임 스크립트(itemCoolTime.bin)가 없어요, time:11월/6일 18시0분19.288초
+[] .\ItemManager.cpp line:10352, time:11월/6일 18시0분19.293초
+[] .\ItemManager.cpp line:6685, time:11월/6일 18시0분48.885초
+[] .\ItemManager.cpp line:8263, time:11월/6일 18시0분48.889초
+[] .\ItemManager.cpp line:8462, msg:분해스크립트(itemDissolve.bin) 가 없습니다, time:11월/6일 18시0분48.894초
+[] .\ItemManager.cpp line:8579, msg:강화 아이템 스크립트(itemReinforce.bin)가 없어요, time:11월/6일 18시0분48.898초
+[] .\ItemManager.cpp line:8846, msg:아이템 업글 스크립트(itemReinforce.bin)가 없어요, time:11월/6일 18시0분48.902초
+[] .\ItemManager.cpp line:10028, msg:아이템 쿨타임 스크립트(itemCoolTime.bin)가 없어요, time:11월/6일 18시0분48.906초
+[] .\ItemManager.cpp line:10352, time:11월/6일 18시0분48.911초

@@ -1,0 +1,83 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=ks_c_5601-1987">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: PackingTool, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "l:\Classic\[Tool]PackingTool\Release\RSP000001.rsp" with contents
+[
+/O2 /I "..\[CC]Header" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AES_FILE_" /D "_MBCS" /FD /EHsc /MT /Yu"stdafx.h" /Fp".\Release/PackingTool.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+"\Classic\[CC]Header\AESFile.cpp"
+"\Classic\[CC]Header\Aes\aes.cpp"
+".\PackingToolDlg.cpp"
+".\PackingTool.cpp"
+".\NewDlg.cpp"
+".\MyRichEdit.cpp"
+".\MyEdit.cpp"
+".\MHFileMng.cpp"
+".\MHFileEx.cpp"
+".\ExtDlg.cpp"
+]
+Creating command line "cl.exe @"l:\Classic\[Tool]PackingTool\Release\RSP000001.rsp" /nologo"
+Creating temporary file "l:\Classic\[Tool]PackingTool\Release\RSP000002.rsp" with contents
+[
+/O2 /I "..\[CC]Header" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AES_FILE_" /D "_MBCS" /FD /EHsc /MT /Yc"stdafx.h" /Fp".\Release/PackingTool.pch" /Fo".\Release/" /Fd".\Release/" /W3 /c /TP
+".\StdAfx.cpp"
+]
+Creating command line "cl.exe @"l:\Classic\[Tool]PackingTool\Release\RSP000002.rsp" /nologo"
+Creating temporary file "l:\Classic\[Tool]PackingTool\Release\RSP000003.rsp" with contents
+[
+/OUT:".\Release/PackingTool.exe" /INCREMENTAL:NO /NOLOGO /DELAYLOAD:"OleAcc.dll" /PDB:".\Release/PackingTool.pdb" /SUBSYSTEM:WINDOWS /MACHINE:X86  DelayImp.lib DelayImp.lib
+".\Release\ExtDlg.obj"
+".\Release\MHFileEx.obj"
+".\Release\MHFileMng.obj"
+".\Release\MyEdit.obj"
+".\Release\MyRichEdit.obj"
+".\Release\NewDlg.obj"
+".\Release\PackingTool.obj"
+".\Release\PackingTool.res"
+".\Release\PackingToolDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\aes.obj"
+".\Release\AESFile.obj"
+]
+Creating command line "link.exe @"l:\Classic\[Tool]PackingTool\Release\RSP000003.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+StdAfx.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+Compiling...
+AESFile.cpp
+aes.cpp
+PackingToolDlg.cpp
+PackingTool.cpp
+PackingTool.cpp(54) : warning C4996: 'CWinApp::Enable3dControlsStatic' was declared deprecated
+        C:\Program Files (x86)\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxwin.h(4371) : see declaration of 'CWinApp::Enable3dControlsStatic'
+NewDlg.cpp
+MyRichEdit.cpp
+MyEdit.cpp
+MHFileMng.cpp
+MHFileEx.cpp
+MHFileEx.cpp(382) : warning C4244: 'initializing' : conversion from 'DWORD' to 'char', possible loss of data
+MHFileEx.cpp(388) : warning C4244: '-=' : conversion from 'DWORD' to 'char', possible loss of data
+MHFileEx.cpp(423) : warning C4244: 'initializing' : conversion from 'DWORD' to 'char', possible loss of data
+MHFileEx.cpp(428) : warning C4244: '+=' : conversion from 'DWORD' to 'char', possible loss of data
+MHFileEx.cpp(559) : warning C4244: '+=' : conversion from 'unsigned long' to 'char', possible loss of data
+MHFileEx.cpp(625) : warning C4244: '-=' : conversion from 'unsigned long' to 'char', possible loss of data
+ExtDlg.cpp
+Generating Code...
+Linking...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://l:\Classic\[Tool]PackingTool\Release\BuildLog.htm"
+PackingTool - 0 error(s), 7 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

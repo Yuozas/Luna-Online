@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 4DyuchiGXFileExtractor - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/4DyuchiGXFileExtractor.res" /d "NDEBUG" /d "_AFXDLL" "D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\4DyuchiGXFileExtractor.rc"" 
+Creating temporary file "C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3AD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/4DyuchiGXFileExtractor.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\4DyuchiGXFileExtractor.cpp"
+"D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\4DyuchiGXFileExtractorDlg.cpp"
+"D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\VariableBuffer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3AD.tmp" 
+Creating temporary file "C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3AE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/4DyuchiGXFileExtractor.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3AE.tmp" 
+Creating temporary file "C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3AF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/4DyuchiGXFileExtractor.pdb" /machine:I386 /out:"Release/4DyuchiGXFileExtractor.exe" 
+.\Release\4DyuchiGXFileExtractor.obj
+.\Release\4DyuchiGXFileExtractorDlg.obj
+.\Release\StdAfx.obj
+.\Release\VariableBuffer.obj
+.\Release\4DyuchiGXFileExtractor.res
+]
+Creating command line "link.exe @C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3AF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+4DyuchiGXFileExtractor.cpp
+4DyuchiGXFileExtractorDlg.cpp
+D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\4DyuchiGXFileExtractorDlg.cpp(381) : warning C4102: 'lb_return' : unreferenced label
+VariableBuffer.cpp
+D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\VariableBuffer.cpp(37) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+4DyuchiGXFileExtractor.exe - 1 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: 4DyuchiGXFileExtractor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/4DyuchiGXFileExtractor.res" /d "_DEBUG" /d "_AFXDLL" "D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\4DyuchiGXFileExtractor.rc"" 
+Creating temporary file "C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3B0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/4DyuchiGXFileExtractor.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\4DyuchiGXFileExtractor.cpp"
+"D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\4DyuchiGXFileExtractorDlg.cpp"
+"D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\VariableBuffer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3B0.tmp" 
+Creating temporary file "C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3B1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/4DyuchiGXFileExtractor.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\4dyuchigx\4DYUCHIGXFILEEXTRACTOR\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3B1.tmp" 
+Creating temporary file "C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3B2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/4DyuchiGXFileExtractor.pdb" /debug /machine:I386 /out:"../../4DyuchiGX/4DyuchiGXTools/4DyuchiGXFileExtractor.exe" /pdbtype:sept 
+.\Debug\4DyuchiGXFileExtractor.obj
+.\Debug\4DyuchiGXFileExtractorDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\VariableBuffer.obj
+.\Debug\4DyuchiGXFileExtractor.res
+]
+Creating command line "link.exe @C:\DOCUME~1\myself97\LOCALS~1\Temp\RSP3B2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+4DyuchiGXFileExtractor.cpp
+4DyuchiGXFileExtractorDlg.cpp
+d:\4dyuchigx\4dyuchigxfileextractor\4dyuchigxfileextractordlg.cpp(381) : warning C4102: 'lb_return' : unreferenced label
+VariableBuffer.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/4DyuchiGXFileExtractor.bsc"  .\Debug\StdAfx.sbr .\Debug\4DyuchiGXFileExtractor.sbr .\Debug\4DyuchiGXFileExtractorDlg.sbr .\Debug\VariableBuffer.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+4DyuchiGXFileExtractor.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

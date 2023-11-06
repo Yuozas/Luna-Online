@@ -1,0 +1,9 @@
+SCC = This is a source code control file
+
+[LogReporter.sln]
+SCC_Aux_Path = "P4SCC#59.29.249.63:1575##BluePearl##BLUEPEARL"
+SCC_Project_Name = Perforce Project
+
+[LogReporter.vcproj]
+SCC_Aux_Path = "P4SCC#59.29.249.63:1575##BluePearl##BLUEPEARL"
+SCC_Project_Name = Perforce Project
